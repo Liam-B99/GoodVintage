@@ -1,0 +1,237 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-left: 2%;
+    background-color: white;
+}
+
+
+
+#logo{
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+#carticon{
+  max-width: 45%;
+  padding: 25%;
+}
+
+#hamicon{
+  max-width: 55%;
+padding: 25%;
+}
+
+#basket{
+  background-color: white;
+  width: 15%;
+  text-align: center;
+  padding-left: 15%;
+}
+
+#hamburger{
+  background-color: white;
+  width:15%;
+  text-align: center;
+}
+
+#contentstitle{
+  width: 100%;
+  position:inherit;
+  top: 0;
+}
+
+#contentstitle{
+  background-color: black;
+  padding-left: 2%;
+  height: 8%;
+}
+
+.closebutton{
+  max-width: 20%;
+  padding-left: 47%;
+  position: absolute;
+  top: 20px;
+  padding-top: 1%;
+
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#cover{
+  position: fixed;
+  top: 0;
+  background-color: white;
+  opacity: 75%;
+  height: 100vh;
+  width: 100vw;
+  z-index: 8;
+  right: 100%;
+  transition: right 0.4s;
+}
+
+nav{
+  background-color: white;
+  height:100vh;
+  width:70vw;
+  position: fixed;
+  top:0;
+  z-index: 10;
+  right: 100%;
+  transition: right 0.4s;
+}
+
+
+
+
+
+#menu a {
+  text-decoration: none;
+  font-family:sans-serif;
+  font-size: 12px;
+  text-align: left;
+  color: black;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  display: block;
+  background: white;
+}
+
+
+#accountbutton{
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid gray;
+  width: 100%;
+}
+
+h1{
+  font-family:sans-serif;
+  font-size: 28px;
+
+}
+
+h2{
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+h3{
+  font-family: sans-serif;
+  font-size: 48px;
+  color: white;
+  text-align: left;
+}
+
+h4{
+  font-family: sans-serif;
+  font-size: 25px;
+
+}
+
+.links{
+  padding-left: 2%;
+  display: flex;
+
+
+}
+
+.homelink{
+  padding-right: 1%;
+  text-decoration: none;
+}
+
+.menlink{
+  text-decoration: none;
+  color: gray;
+}
+
+
+img{
+width: 100%;
+
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.item1 {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+    max-width:45%;
+    margin: auto;
+    font-family: arial;
+    text-align: center;
+    width: 50%;
+    margin-top: 7%;
+}
+
+.price{
+  color: grey;
+  font-size: 22px;
+}
+
+.item1 button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  height: 75px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.menscontent {
+    margin-top:20px;
+    display: flex;
+}
+
+.saleanimation{
+  width: 100%;
+  background-color: #99d2d4;
+  text-align: center;
+}
+
+
+
+.nav{
+
+  text-align: center;
+}
+#home{
+  width: 25%;
+}
+
+#account{
+  width: 25%;
+  border-left: solid 1px gray;
+  border-right: solid 1px gray;
+}
+
+#wishlist{
+  width: 25%;
+  border-right: solid 1px gray;
+}
+
+#contact{
+  width: 25%;
+  padding-right: 5%;
+}

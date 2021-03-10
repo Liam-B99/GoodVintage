@@ -1,0 +1,70 @@
+#logo{
+  max-width: 55%;
+
+}
+
+h5{
+  font-family: Trebuchet MS;
+  font-size: 30px;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#clockdiv {
+    width: 100%;
+    font-family: sans-serif;
+    color: white;
+    display: inline-block;
+    font-weight: 100;
+    text-align: left;
+    font-size: 100%;
+    margin-bottom: 1%;
+    width: 55%;
+    padding-top: 1%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 6%;
+}
+
+.saleanimation{
+  background-image: url(../images/liamshoot/newbanner.png);
+  background-size: 100% 600px;
+  height: 600px;
+  position: relative;
+  width: 100%;
+  z-index: -100;
+  text-align: center;
+
+}
+
+#clockdiv > div {
+    border-radius: 3px;
+    display: inline-block;
+background-color: #5F9EA0;
+margin: 1%;
+border: 1px solid black;
+
+}
+
+#clockdiv div > span {
+    border-radius: 3px;
+    font-size: 400%;
+    opacity: 100%;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+
+.smalltext {
+    font-size: 50%;
+    font-weight: bold;
+    background-color: #000000;
+    text-align: center;
+}
