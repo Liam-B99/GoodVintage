@@ -3,6 +3,18 @@
 
 }
 
+.snipcart-items-count{
+  margin-top: 7.5%;
+padding-left: 18.5%;
+}
+
+.snipcart {
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #313332;
+}
+
 .content{
   width: 100%;
   display: flex;
