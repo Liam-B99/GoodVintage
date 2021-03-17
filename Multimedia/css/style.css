@@ -228,7 +228,7 @@ width: 100%;
   display: flex;
   border-top: 1px solid gray;
   background-color: white;
-  z-index: 150;
+  z-index: 6;
 
 }
 
