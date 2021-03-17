@@ -231,6 +231,10 @@ width: 100%;
 
 }
 
+footer{
+  border-color: white;
+}
+
 #home{
   width: 25%;
   padding-top: 2%;
