@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="https://kit.fontawesome.com/a89069ad2d.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <title></title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -12,7 +13,10 @@
 
   <header id="myHeader">
     <div id="logo"><img src="images/LLOGO.svg"></div>
-      <div id="basket"><img src="images/basket.png" id="carticon"></div>
+    <span class="snipcart-checkout">
+      <i id="basket"><img src="images/basket.png" id="carticon"></i>
+    </span>
+    <span class="snipcart-items-count"></span>
         <div id="hamburger"><img src="images/Hamburger_icon.svg" id="hamicon"></div>
   </header>
   <body>
@@ -96,7 +100,12 @@
 <section class="item1" id="two"> <img src="images/laura/adidas1.jpg" onmouseover="this.src='images/laura/adidas2.jpg'" onmouseout="this.src='images/laura/adidas1.jpg'">
   <h1>Lightblue Adidas Sweatshirt (M)</h1>
   <p class="price">£21.99</p>
-  <button>Add to cart</button>
+  <button class="snipcart-add-item"
+  data-item-id="BlueJumper"
+  data-item-price="21.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/laura/adidas1.jpg"
+  data-item-name="Lightblue Adidas Sweatshirt (M)">Add to cart</button>
 </section>
 
 
@@ -104,14 +113,24 @@
 
 <section class="item1" id="three"> <img src="images/laura/adidastop1.jpg" onmouseover="this.src='images/laura/adidastop2.jpg'" onmouseout="this.src='images/laura/adidastop1.jpg'">
   <h1>Adidas T-shirt (M)</h1>
-  <p class="price">£12.99</p>
-  <button>Add to cart</button>
+  <p class="price">£10.99</p>
+  <button class="snipcart-add-item"
+  data-item-id="Adidastop"
+  data-item-price="10.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/laura/adidastop1.jpg"
+  data-item-name="Adidas T-shirt (M)">Add to cart</button>
 </section>
 
 <section class="item1" id="four"> <img src="images/laura/windbreak1.jpg" onmouseover="this.src='images/laura/windbreak2.jpg'" onmouseout="this.src='images/laura/windbreak1.jpg'">
   <h1> Adidas Waterproof Jacket (L)</h1>
-  <p class="price">£21.99</p>
-  <button>Add to cart</button>
+  <p class="price">£16.99</p>
+  <button class="snipcart-add-item"
+  data-item-id="Windbreak"
+  data-item-price="16.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/laura/windbreak1.jpg"
+  data-item-name="Adidas Waterproof Jacket (L)">Add to cart</button>
 </section>
 
 
@@ -119,14 +138,24 @@
 
 <section class="item1" id="one"> <img src="images/laura/wonder3.jpg" onmouseover="this.src='images/laura/wonder2.jpg'" onmouseout="this.src='images/laura/wonder3.jpg'">
   <h1>Wonder Woman Graphic Tee (M)</h1>
-  <p class="price">£15.99</p>
-  <button>Add to cart</button>
+  <p class="price">£13.99</p>
+  <button class="snipcart-add-item"
+  data-item-id="WonderWoman"
+  data-item-price="13.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/laura/wonder3.jpg"
+  data-item-name="Wonder Woman Graphic Tee (M)">Add to cart</button>
 </section>
 
 <section class="item1" id="two"> <img src="images/laura/leopard1.jpg" onmouseover="this.src='images/laura/leopard2.jpg'" onmouseout="this.src='images/laura/leopard1.jpg'">
   <h1>Leopard Print Cardigan (M)</h1>
   <p class="price">£18.99</p>
-  <button>Add to cart</button>
+  <button class="snipcart-add-item"
+  data-item-id="Ralph"
+  data-item-price="18.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/laura/leopard1.jpg"
+  data-item-name="Leopard Print Cardigan (M)">Add to cart</button>
 </section>
 
 
@@ -135,13 +164,23 @@
 <section class="item1" id="three"> <img src="images/laura/obey1.jpg" onmouseover="this.src='images/laura/obey2.jpg'" onmouseout="this.src='images/laura/obey1.jpg'">
   <h1>Blue Striped Obey T-Shirt (M)</h1>
   <p class="price">£12.99</p>
-  <button>Add to cart</button>
+  <button class="snipcart-add-item"
+  data-item-id="Ralph"
+  data-item-price="12.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/laura/obey1.jpg"
+  data-item-name="Blue Striped Obey T-Shirt (M)">Add to cart</button>
 </section>
 
 <section class="item1" id="four"> <img src="images/laura/sweater1.jpg" onmouseover="this.src='images/laura/sweater2.jpg'" onmouseout="this.src='images/laura/sweater1.jpg'">
   <h1>Purple Sweater (L)</h1>
   <p class="price">£16.99</p>
-  <button>Add to cart</button>
+  <button class="snipcart-add-item"
+  data-item-id="Purple"
+  data-item-price="16.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/laura/sweater1.jpg"
+  data-item-name="Purple Sweater (L)">Add to cart</button>
 </section>
 
 
@@ -149,27 +188,47 @@
 <section class="item1" id="three"> <img src="images/laura/nike1.jpg" onmouseover="this.src='images/laura/nike2.jpg'" onmouseout="this.src='images/laura/nike1.jpg'">
   <h1>Nike Waterproof Jacket (L)</h1>
   <p class="price">£17.99</p>
-  <button>Add to cart</button>
+  <button class="snipcart-add-item"
+  data-item-id="Waterproof"
+  data-item-price="17.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/laura/nike1.jpg"
+  data-item-name="Nike Waterproof Jacket (L)">Add to cart</button>
 </section>
 
 <section class="item1" id="four"> <img src="images/laura/stripes1.jpg" onmouseover="this.src='images/laura/stripes2.jpg'" onmouseout="this.src='images/laura/stripes1.jpg'">
   <h1>Adidas Jogging Bottoms (M)</h1>
-  <p class="price">£8.99</p>
-  <button>Add to cart</button>
+  <p class="price">£11.99</p>
+  <button class="snipcart-add-item"
+  data-item-id="jogging"
+  data-item-price="11.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/laura/stripes1.jpg"
+  data-item-name="Adidas Jogging Bottoms (M)">Add to cart</button>
 </section>
 
 
 
 <section class="item1" id="three"> <img src="images/laura/levi1.jpg" onmouseover="this.src='images/laura/levi2.jpg'" onmouseout="this.src='images/laura/levi1.jpg'">
   <h1>White Levi Jeans T-Shirt (S)</h1>
-  <p class="price">£5.99</p>
-  <button>Add to cart</button>
+  <p class="price">£7.99</p>
+  <button class="snipcart-add-item"
+  data-item-id="Levi's"
+  data-item-price="7.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/laura/levi1.jpg"
+  data-item-name="White Levi Jeans T-Shirt (S)">Add to cart</button>
 </section>
 
 <section class="item1" id="four"> <img src="images/laura/stussy1.jpg" onmouseover="this.src='images/laura/stussy2.jpg'" onmouseout="this.src='images/laura/stussy1.jpg'">
   <h1>White Stussy T-Shirt (S)</h1>
   <p class="price">£17.99</p>
-  <button>Add to cart</button>
+  <button class="snipcart-add-item"
+  data-item-id="Stussy"
+  data-item-price="17.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/laura/stussy1.jpg"
+  data-item-name="White Stussy T-Shirt (S)">Add to cart</button>
 </section>
 
 
