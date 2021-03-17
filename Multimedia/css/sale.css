@@ -8,10 +8,41 @@ h5{
   font-size: 30px;
 }
 
+.snipcart-items-count{
+  margin-top: 7.5%;
+padding-left: 18.5%;
+}
+
+.snipcart {
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #313332;
+}
+
 .content{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.number{
+  display: flex;
+  text-align: center;
+  margin-left: 40%;
+}
+
+.price1{
+  color: grey;
+  font-size: 22px;
+  text-decoration: line-through;
+}
+
+.newprice{
+  float: right;
+  color: red;
+  font-size: 22px;
+  margin-left: 10%;
 }
 
 #clockdiv {

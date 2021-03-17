@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="https://kit.fontawesome.com/a89069ad2d.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <title></title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/sale.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://app.snipcart.com">
+    <link rel="preconnect" href="https://cdn.snipcart.com">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css"/>
   </head>
 <!--header-->
-  <header id="myHeader">
-    <div id="logo"><img src="images/LLOGO.svg"></div>
-      <div id="basket"><img src="images/basket.png" id="carticon"></div>
-        <div id="hamburger"><img src="images/Hamburger_icon.svg" id="hamicon"></div>
-  </header>
+<header id="myHeader">
+<div id="logo"><img src="images/LLOGO.svg"></div>
+
+  <span class="snipcart-checkout">
+    <i id="basket"><img src="images/basket.png" id="carticon"></i>
+  </span>
+  <span class="snipcart-items-count"></span>
+
+
+
+    <div id="hamburger"><img src="images/Hamburger_icon.svg" id="hamicon"></div>
+</header>
   <body>
 <!--hamburger menu-->
     <nav id="menu" style="right: -100%;">
@@ -77,90 +88,186 @@
 <!--content--->
 <div class="content">
 
-<section class="item1"> <img src="images/sale/black.jpg" onmouseover="this.src='images/sale/black2.jpg'" onmouseout="this.src='images/sale/black.jpg'">
-<h1>details of item 1</h1>
-<p class="price">£13.99</p>
-<button>Add to Cart</button>
-</section>
+  <section class="item1"> <img src="images/sale/black.jpg" onmouseover="this.src='images/sale/black2.jpg'" onmouseout="this.src='images/sale/black.jpg'">
+  <h1>Black 'iets frans' Cap</h1>
+  <div class="number">
+    <p class="price1">£13.99</p>
+    <p class="newprice">£7.99</p>
+  </div>
+  <button class="snipcart-add-item"
+  data-item-id="blackcap"
+  data-item-price="7.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/sale/black.jpg"
+  data-item-name="Black 'iets frans' Cap">Add to Cart</button>
+  </section>
 
-<section class="item1"> <img src="images/sale/champion1.jpg" onmouseover="this.src='images/sale/champion2.jpg'" onmouseout="this.src='images/sale/champion1.jpg'">
-<h1>details of item 2</h1>
-<p class="price">£7.99</p>
-<button>Add to Cart</button>
-</section>
-
-
-
-
-<section class="item1"> <img src="images/sale/blackgilet2.jpg" onmouseover="this.src='images/sale/blackgilet.jpg'" onmouseout="this.src='images/sale/blackgilet2.jpg'">
-<h1>Black Gilet (Large)</h1>
-<p class="price">£17.99</p>
-<button>Add to cart</button>
-</section>
-
-<section class="item1"> <img src="images/sale/blackhat.jpg" onmouseover="this.src='images/sale/blackhat2.jpg'" onmouseout="this.src='images/sale/blackhat.jpg'">
-  <h1>Black Bucket Hat</h1>
-  <p class="price">£7.99</p>
-  <button>Add to cart</button>
-</section>
-
-
-
-
-<section class="item1"> <img src="images/sale/checkered3.jpg" onmouseover="this.src='images/sale/checkered2.jpg'" onmouseout="this.src='images/sale/checkered3.jpg'">
-  <h1>Flannel Shirt (Large)</h1>
-  <p class="price">£14.99</p>
-  <button>Add to cart</button>
-</section>
-
-<section class="item1"> <img src="images/sale/disney1.jpg" onmouseover="this.src='images/sale/disney2.jpg'" onmouseout="this.src='images/sale/disney1.jpg'">
-  <h1>Disney T-Shirt (Medium)</h1>
-  <p class="price">£4.99</p>
-  <button>Add to cart</button>
-</section>
+  <section class="item1"> <img src="images/sale/champion1.jpg" onmouseover="this.src='images/sale/champion2.jpg'" onmouseout="this.src='images/sale/champion1.jpg'">
+    <h1>Yellow Champion Jumper (M)</h1>
+  <div class="number">
+  <p class="price1">£21.99</p>
+  <p class="newprice">£16.99</p>
+  </div>
+  <button class="snipcart-add-item"
+  data-item-id="champion"
+  data-item-price="16.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/sale/champion1.jpg"
+  data-item-name="Yellow Champion Jumper (M)">Add to Cart</button>
+  </section>
 
 
 
 
-<section class="item1"> <img src="images/sale/ralphhat.jpg" onmouseover="this.src='images/sale/greyjacket2.jpg'" onmouseout="this.src='images/sale/ralphhat.jpg'">
-  <h1>Beige Ralph Lauren Cap</h1>
-  <p class="price">£8.99</p>
-  <button>Add to cart</button>
-</section>
+  <section class="item1"> <img src="images/sale/blackgilet2.jpg" onmouseover="this.src='images/sale/blackgilet.jpg'" onmouseout="this.src='images/sale/blackgilet2.jpg'">
+  <h1>Black Gilet (L)</h1>
+  <div class="number">
+  <p class="price1">£24.99</p>
+  <p class="newprice">£17.99</p>
+  </div>
+  <button class="snipcart-add-item"
+  data-item-id="blackgilet"
+  data-item-price="17.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/sale/blackgilet2.jpg"
+  data-item-name="Black Gilet (L)">Add to cart</button>
+  </section>
 
-<section class="item1"> <img src="images/sale/jeans.jpg" onmouseover="this.src='images/sale/jeans2.jpg'" onmouseout="this.src='images/sale/jeans.jpg'">
-  <h1>Blue Washed Jeans (Medium)</h1>
-  <p class="price">£12.99</p>
-  <button>Add to cart</button>
-</section>
+  <section class="item1"> <img src="images/sale/blackhat.jpg" onmouseover="this.src='images/sale/blackhat2.jpg'" onmouseout="this.src='images/sale/blackhat.jpg'">
+    <h1>Black Bucket Hat</h1>
+    <div class="number">
+    <p class="price1">£13.99</p>
+    <p class="newprice">£7.99</p>
+  </div>
+    <button class="snipcart-add-item"
+    data-item-id="blackbucket"
+    data-item-price="7.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/sale/blackhat.jpg"
+    data-item-name="Black Bucket Hat">Add to cart</button>
+  </section>
 
 
 
-<section class="item1"> <img src="images/sale/ralphvest2.jpg" onmouseover="this.src='images/sale/ralphvest.jpg'" onmouseout="this.src='images/sale/ralphvest2.jpg'">
-  <h1>Ralph Lauren Sweater Vest (Large)</h1>
-  <p class="price">£10.99</p>
-  <button>Add to cart</button>
-</section>
 
-<section class="item1"> <img src="images/sale/windbreak:jogging.jpg" onmouseover="this.src='images/sale/jogging1.jpg'" onmouseout="this.src='images/sale/windbreak:jogging.jpg'">
-  <h1>Navy Adidas Tracksuit Bottoms (Medium)</h1>
-  <p class="price">£9.99</p>
-  <button>Add to cart</button>
-</section>
+  <section class="item1"> <img src="images/sale/checkered3.jpg" onmouseover="this.src='images/sale/checkered2.jpg'" onmouseout="this.src='images/sale/checkered3.jpg'">
+    <h1> Grey Flannel Shirt (L)</h1>
+    <div class="number">
+    <p class="price1">£15.99</p>
+    <p class="newprice">£11.99</p>
+  </div>
+    <button class="snipcart-add-item"
+    data-item-id="champion"
+    data-item-price="11.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/sale/checkered3.jpg"
+    data-item-name="Grey Flannel Shirt (L)">Add to cart</button>
+  </section>
+
+  <section class="item1"> <img src="images/sale/disney1.jpg" onmouseover="this.src='images/sale/disney2.jpg'" onmouseout="this.src='images/sale/disney1.jpg'">
+    <h1>Disney T-Shirt (M)</h1>
+    <div class="number">
+    <p class="price1">£8.99</p>
+    <p class="newprice">£4.99</p>
+  </div>
+    <button class="snipcart-add-item"
+    data-item-id="Disney"
+    data-item-price="4.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/sale/disney1.jpg"
+    data-item-name="Disney T-Shirt (M)">Add to cart</button>
+  </section>
 
 
 
-<section class="item1"> <img src="images/sale/yellowhat2.jpg" onmouseover="this.src='images/liamshoot/yellowhat.jpg'" onmouseout="this.src='images/sale/yellowhat2.jpg'">
-  <h1>Yellow Bucket Hat</h1>
-  <p class="price">£6.99</p>
-  <button>Add to cart</button>
-</section>
 
-<section class="item1"> <img src="images/sale/jeans111.jpg" onmouseover="this.src='images/sale/jeans11.jpg'" onmouseout="this.src='images/sale/jeans111.jpg'">
-  <h1>Jeans (Medium)</h1>
-  <p class="price">£8.99</p>
-  <button>Add to cart</button>
-</section>
+  <section class="item1"> <img src="images/sale/ralphhat.jpg" onmouseover="this.src='images/sale/greyjacket2.jpg'" onmouseout="this.src='images/sale/ralphhat.jpg'">
+    <h1>Beige Ralph Lauren Cap</h1>
+    <div class="number">
+    <p class="price1">£11.99</p>
+    <p class="newprice">£8.99</p>
+  </div>
+    <button class="snipcart-add-item"
+    data-item-id="ralphhat"
+    data-item-price="8.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/sale/ralphhat.jpg"
+    data-item-name="Beige Ralph Lauren Cap">Add to cart</button>
+  </section>
+
+  <section class="item1"> <img src="images/sale/jeans.jpg" onmouseover="this.src='images/sale/jeans2.jpg'" onmouseout="this.src='images/sale/jeans.jpg'">
+    <h1>Blue Washed Jeans (M)</h1>
+    <div class="number">
+    <p class="price1">£12.99</p>
+    <p class="newprice">£10.99</p>
+  </div>
+    <button class="snipcart-add-item"
+    data-item-id="bluejeans"
+    data-item-price="10.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/sale/jeans.jpg"
+    data-item-name="Blue Washed Jeans (M)">Add to cart</button>
+  </section>
+
+
+
+  <section class="item1"> <img src="images/sale/ralphvest2.jpg" onmouseover="this.src='images/sale/ralphvest.jpg'" onmouseout="this.src='images/sale/ralphvest2.jpg'">
+    <h1>Ralph Lauren Sweater Vest (L)</h1>
+    <div class="number">
+    <p class="price1">£21.99</p>
+    <p class="newprice">£13.99</p>
+  </div>
+    <button class="snipcart-add-item"
+    data-item-id="champion"
+    data-item-price="13.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/sale/ralphvest2.jpg"
+    data-item-name="Ralph Lauren Sweater Vest (L)">Add to cart</button>
+  </section>
+
+  <section class="item1"> <img src="images/sale/windbreak:jogging.jpg" onmouseover="this.src='images/sale/jogging1.jpg'" onmouseout="this.src='images/sale/windbreak:jogging.jpg'">
+    <h1>Adidas Tracksuit Bottoms (M)</h1>
+    <div class="number">
+    <p class="price1">£16.99</p>
+    <p class="newprice">£9.99</p>
+  </div>
+    <button class="snipcart-add-item"
+    data-item-id="navybottoms"
+    data-item-price="19.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/sale/windbreak:jogging.jpg"
+    data-item-name="Navy Adidas Tracksuit Bottoms (M)">Add to cart</button>
+  </section>
+
+
+
+  <section class="item1"> <img src="images/sale/yellowhat2.jpg" onmouseover="this.src='images/liamshoot/yellowhat.jpg'" onmouseout="this.src='images/sale/yellowhat2.jpg'">
+    <h1>Yellow Bucket Hat</h1>
+    <div class="number">
+    <p class="price1">£13.99</p>
+    <p class="newprice">£6.99</p>
+  </div>
+    <button class="snipcart-add-item"
+    data-item-id="yellowbucket"
+    data-item-price="6.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/sale/yellowhat2.jpg"
+    data-item-name="Yellow Bucket Hat">Add to cart</button>
+  </section>
+
+  <section class="item1"> <img src="images/sale/jeans111.jpg" onmouseover="this.src='images/sale/jeans11.jpg'" onmouseout="this.src='images/sale/jeans111.jpg'">
+    <h1>Jeans (M)</h1>
+    <div class="number">
+    <p class="price1">£13.99</p>
+    <p class="newprice">£8.99</p>
+  </div>
+    <button class="snipcart-add-item"
+    data-item-id="Jeans"
+    data-item-price="8.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/sale/jeans111.jpg"
+    data-item-name="Jeans (M)">Add to cart</button>
+  </section>
 
 
 </div>
@@ -229,6 +336,8 @@ if(t <0){
 }, 1000);
 
 </script>
+<script async src="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.js"></script>
+<div hidden id="snipcart" data-api-key="MzI5MzJlMzctZjdhZS00OTVmLWE2ZDgtYTFlMDkwN2NiYmZkNjM3NTA5MDc0NjEyNjI1MDY5"></div>
 
 
   </body>
