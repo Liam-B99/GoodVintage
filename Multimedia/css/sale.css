@@ -67,7 +67,9 @@ padding-left: 18.5%;
   background-size: 100% 70%;
   height: 600px;
   position: relative;
-  width: 100%;
+  width: 95%;
+  padding-left: 2%;
+  padding-right: 2%;
   z-index: -100;
   text-align: center;
 
