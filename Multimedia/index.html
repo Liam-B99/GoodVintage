@@ -9,53 +9,48 @@
     <link rel="preconnect" href="https://app.snipcart.com">
     <link rel="preconnect" href="https://cdn.snipcart.com">
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
   </head>
 
   <header id="myHeader">
-  <div id="logo"><img src="images/LLOGO.svg"></div>
+  <div id="logo"><h1>GOOD VINTAGE</h1></div>
 
     <span class="snipcart-checkout">
-      <i id="basket"><img src="images/basket.png" id="carticon"></i>
+      <i id="basket"><img src="images/svgs/work_outline-24px.svg" id="carticon"></i>
     </span>
     <span class="snipcart-items-count"></span>
-
-
-
-      <div id="hamburger"><img src="images/Hamburger_icon.svg" id="hamicon"></div>
+    <div class="nav">
+      <label for="toggle"><img src="images/svgs/dehaze-24px.svg"></label>
 </header>
+<input type="checkbox" id="toggle"/>
+
+<div class="menu">
+  <a href="home.html">Home</a>
+  <a href="men.html">Men's</a>
+  <a href="womens.html">Women's</a>
+  <a href="sale.html">Sale</a>
+
+  <div id="logocom"><h1>GOOD VINTAGE</h1></div>
+
+          <div class="bar">
+            <a  id="account2" href="Account.html"> <img src="images/svgs/person_outline-24px.svg"></a>
+            <a  id="bag2" href="Account.html"> <img src="images/svgs/shopping_bag-24px.svg"></a>
+            <a  id="wishlist2" href="wishlist.html"><img src="images/svgs/favorite_border-24px.svg"></a>
+            <a  id="contact2" href="contact.html"> <img src="images/svgs/email-24px.svg"></a>
+        </div>
+        </div>
+
+
+</div>
   <body>
 
-    <nav id="menu" style="right: -100%;">
-      <div class="menuItem" id="contentstitle"><h3>MENU</h3>
-      <div class="closebutton" id="cross"> <img src="images/closebutton.png"></div>
-    </div>
-      <a class="menuItem" href="home.html">
-        <h1>HOME</h1></a>
-        <a class="menuItem" href="home.html">
-          <h1>HOME</h1></a>
-        <a class="menuItem" href="womens.html">
-          <h1>WOMENS</h1></a>
-          <a class="menuItem" href="men.html">
-            <h1>MENS</h1></a>
-            <a class="menuItem" href="sale.html">
-              <h1>SALE</h1></a>
-              <a class="menuItem" href="contact.html">
-                <h2>CONTACT US</h2></a>
-                <a class="menuItem" href="wishlist.html">
-                  <h2>MY WISHLIST</h2></a>
-                  <a class="menuItem" id="accountbutton" style="background-color:lightgray" href="Account.html">
-                    <h1>MY ACCOUNT</h1></a>
-                  </nav>
-          <div id="cover" style="right: -100%;">
-          </div>
-
-
 <!--salebanner-->
+<div class="clearfix">
  <a href="sale.html">
 <div class="saleanimation">
 
 
-<h4>UP TO 50% OFF, OFFER ENDS MAY 27th 2021.</h4>
+<h5>UP TO 50% OFF, OFFER ENDS MAY 27th 2021.</h5>
 
   <div id="clockdiv">
   <div id="box">
@@ -82,8 +77,9 @@
   <p id="demo"></p>
 </div>
 </a>
+</div>
 <!--content-->
-
+<div class="page">
 
   <a href="womens.html">
     <div class="girls">
@@ -108,7 +104,7 @@
       </div>
     </div>
   </a>
-
+</div>
 
   <footer class="footer">
       <a class="nav" id="home" href="index.html"> <img src="images/svgs/other_houses-24px.svg" id="a"></a>
@@ -121,19 +117,7 @@
 
 
 <script>
-//hamburger menu//
-openMenu = () => {
-  document.getElementById('menu').style.right = '0';
-  document.getElementById('cover').style.right = '0';
-}
 
-closeMenu = () => {
-  document.getElementById('menu').style.right = '-100%';
-  document.getElementById('cover').style.right = '-100%';
-}
-
-document.getElementById('hamburger').addEventListener('click', openMenu);
-document.getElementById('cross').addEventListener('click' , closeMenu);
 
 //sticky header//
 window.onscroll = function() {myFunction()};

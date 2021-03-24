@@ -1,42 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    padding-left: 2%;
+    border-bottom: 1px solid #EAEAEB;
     background-color: white;
+    position: relative;
+    text-align: left;
 }
 
-
+.nav{
+  width: 150%;
+}
 
 #logo{
-  background-color: white;
   width: 100%;
-  text-align: center;
-  padding-top: 5%;
+  text-align: left;
+  padding-left: 2%;
 }
+
+#logocom{
+position: absolute;
+left: 40%;
+top: 9%;;
+}
+
 
 #carticon{
-  max-width: 45%;
-  padding: 25%;
-}
-
-#hamicon{
-  max-width: 55%;
-padding: 25%;
+  max-width: 65%;
+  padding-right: 13%;
 }
 
 #basket{
-  width: 15%;
-  text-align: center;
+  width: 3.5em;
+  text-align: right;
   position:absolute;
   right: 0;
   margin-right: 12%;
-}
-
-#hamburger{
-  background-color: white;
-  width:15%;
-  text-align: center;
+  padding-top: 3%;
 }
 
 #contentstitle{
@@ -66,33 +70,6 @@ padding: 25%;
   width: 100%;
 }
 
-#cover{
-  position: fixed;
-  top: 0;
-  background-color: white;
-  opacity: 75%;
-  height: 90vh;
-  width: 100vw;
-  z-index: 8;
-  right: 100%;
-  transition: right 0.4s;
-}
-
-nav{
-  background-color: white;
-  height:90vh;
-  width:70vw;
-  position: fixed;
-  top:0;
-  z-index: 10;
-  right: 100%;
-  transition: right 0.4s;
-}
-
-
-
-
-
 #menu a {
   text-decoration: none;
   font-family:sans-serif;
@@ -113,11 +90,6 @@ nav{
   width: 100%;
 }
 
-h1{
-  font-family:sans-serif;
-  font-size: 28px;
-
-}
 
 h2{
   font-family: sans-serif;
@@ -129,12 +101,6 @@ h3{
   font-size: 48px;
   color: white;
   text-align: left;
-}
-
-h4{
-  font-family: sans-serif;
-  font-size: 25px;
-
 }
 
 .links{
@@ -206,16 +172,54 @@ width: 100%;
 }
 
 .saleanimation{
-  width: 100%;
   background-color: #99d2d4;
-  text-align: center;
 }
 
-
+html{
+  font-family: "helvetica neue", sans-serif;
+}
 
 .nav{
+  text-align: left;
+  height:50px;
+  margin: none;
+  z-index: 100;
+}
 
-  text-align: center;
+.menu{
+  margin: none;
+  z-index: 100;
+  background-color: #f1f1da;
+  position: absolute;
+  left: 0;
+  top: 63px;
+}
+
+.menu a {
+  clear: right;
+  text-decoration: none;
+  color: gray;
+  margin: 0 10px;
+  line-height: 90px;
+  z-index: 100;
+  background-color: #f8f8ec;
+}
+
+label{
+  width: 2.5em;
+  float: right;
+  display: none;
+  padding-right: 4%;
+  padding-top: 5%;
+}
+
+#toggle{
+  display: none;
+}
+
+.bar{
+  float: right;
+  display: flex;
 }
 
 .footer{
@@ -223,12 +227,11 @@ width: 100%;
   left:0;
   bottom: 0;
   width: 100%;
-  height: 170px;
   text-align: center;
   display: flex;
-  border-top: 1px solid gray;
+  border-top: 1px solid #EAEAEB;
   background-color: white;
-  z-index: 6;
+  z-index: 200;
 
 }
 
@@ -236,42 +239,73 @@ width: 100%;
 #home{
   width: 25%;
   padding-top: 2%;
+  text-align: center;
 }
 
 #account{
   width: 25%;
-  border-left: solid 1px gray;
-  border-right: solid 1px gray;
-  padding-top: 2%;
+text-align: center;
+padding-top: 3%;
 }
+
 
 #wishlist{
   width: 25%;
-  border-right: solid 1px gray;
-  padding-top: 2%;
+
+text-align: center;
+padding-top: 3%;
 }
 
 #contact{
   width: 25%;
-  padding-top: 2%;
+  text-align: center;
+  padding-top: 3%;
 }
 
 #a{
-  max-width: 40%;
-  opacity: 100%;
+  max-width: 35%;
 }
 
 #b{
-  max-width: 40%;
-  opacity: 100%;
+  max-width: 35%;
 }
 
 #c{
-  max-width: 40%;
-  opacity: 100%;
+  max-width: 35%;
 }
 
 #d{
-  max-width: 40%;
-  opacity: 100%;
+  max-width: 35%;
+}
+
+
+#account2{
+  width: 25%;
+text-align: center;
+padding-top: 3%;
+}
+
+#bag2{
+  width: 25%;
+text-align: center;
+padding-top: 3%;
+fill: white;
+}
+
+
+#wishlist2{
+  width: 25%;
+text-align: center;
+padding-top: 3%;
+}
+
+#contact2{
+  width: 25%;
+  text-align: center;
+  padding-top: 3%;
+}
+
+img{
+width: 100%;
+
 }

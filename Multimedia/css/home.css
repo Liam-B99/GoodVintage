@@ -1,20 +1,17 @@
-
+h1{
+    font-family: 'Gruppo';font-size: 32px;
+}
 
 #clockdiv {
-    width: 100%;
+    min-width: 30%;
     font-family: sans-serif;
     color: white;
     display: inline-block;
     font-weight: 100;
     text-align: right;
     font-size: 100%;
-    width: 55%;
-    padding-top: 1%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding-right: 4%;
-    padding-bottom: 1.5%;
+    width: 20%;
+    padding-right: 5%;
 
 }
 
@@ -31,15 +28,17 @@ padding-left: 18.5%;
 }
 
 .saleanimation{
-  background-image: url(../images/liamshoot/bansalecopy.png);
-  height: 100px;
+  background-color: #99d2d4;
+  height: 30px;
   position: relative;
-  width: 100%;
+  width: 95%;
   z-index: -100;
   text-align: center;
   margin-bottom: 3%;
-padding-top: 0.1%;
-display: block;
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 5%;
+display: flex;
 
 }
 
@@ -48,16 +47,13 @@ a{
 }
 
 #clockdiv > div {
-    border-radius: 3px;
+    border-radius: 2px;
     display: inline-block;
-margin: 1%;
-
-
 }
 
 #clockdiv div > span {
     border-radius: 3px;
-    font-size: 300%;
+    font-size: 130%;
     opacity: 100%;
     display: inline-block;
     font-family: sans-serif;
@@ -67,33 +63,20 @@ margin: 1%;
 
 
 .smalltext {
-    font-size: 50%;
+    font-size: 10%;
     font-weight: bold;
     text-align: center;
 }
 
-#logo{
-  max-width: 55%;
-
-}
-
-h4{
-  text-align: left;
-  padding-left: 13%;
-  font-family: sans-serif;
-  font-size: 150%;
+h5{
   color: white;
 }
-
-
-
-
 
 .girls{
   position: relative;
   text-align: center;
   color: white;
-  z-index: 0;
+  z-index: -50;
   display: block;
 }
 
@@ -143,5 +126,108 @@ h4{
   }
   100%{
     transform: skew(0deg);
+  }
+}
+
+
+.clearfix:after{
+  display: block;
+  clear: both;
+  content: "";
+}
+
+@media only screen and (min-width: 666px){
+  h5{
+    font-size: 100%;
+  }
+
+  }
+
+
+
+@media only screen and (max-width: 658px){
+  label{
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .menu a{
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+    margin: 0;
+  }
+  #toggle:checked + .menu{
+    display: block;
+  }
+
+.bar{
+  display: none;
+}
+
+#logocom{
+  display: none;
+}
+
+  }
+
+
+  @media only screen and (min-width: 659px){
+
+    #logo{
+      display: none;
+    }
+
+ .bar{
+   opacity: 50%;
+
+
+ }
+
+#basket{
+  display: none;
+}
+
+.footer{
+  display: none;
+}
+.menu a{
+  background-color: white;
+}
+
+.menu{
+  display: contents;
+
+}
+
+.page{
+  display: flex;
+  padding: 1%;
+}
+
+.girls{
+  width: 97%;
+}
+header{
+  border-bottom: none;
+}
+
+}
+
+@media only screen and (min-width: 960px){
+  h5{
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 1120px){
+  h5{
+    font-size: 140%;
   }
 }
