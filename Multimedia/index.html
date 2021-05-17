@@ -1,163 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-      <script src="https://kit.fontawesome.com/a89069ad2d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a89069ad2d.js" crossorigin="anonymous"></script>
+    <meta http-equiv="refresh" content="5; url=home.html"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title></title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/home.css" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://app.snipcart.com">
-    <link rel="preconnect" href="https://cdn.snipcart.com">
-    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css"/>
+    <link href="css\style.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
   </head>
-
-  <header id="myHeader">
-  <div id="logo"><h1>GOOD VINTAGE</h1></div>
-
-    <span class="snipcart-checkout">
-      <i id="basket"><img src="images/svgs/work_outline-24px.svg" id="carticon"></i>
-    </span>
-    <span class="snipcart-items-count"></span>
-    <div class="nav">
-      <label for="toggle"><img src="images/svgs/dehaze-24px.svg"></label>
-</header>
-<input type="checkbox" id="toggle"/>
-
-<div class="menu">
-  <a href="home.html">Home</a>
-  <a href="men.html">Men's</a>
-  <a href="womens.html">Women's</a>
-  <a href="sale.html">Sale</a>
-
-  <div id="logocom"><h1>GOOD VINTAGE</h1></div>
-
-          <div class="bar">
-            <a  id="account2" href="Account.html"> <img src="images/svgs/person_outline-24px.svg"></a>
-            <a  id="bag2" href="Account.html"> <img src="images/svgs/shopping_bag-24px.svg"></a>
-            <a  id="wishlist2" href="wishlist.html"><img src="images/svgs/favorite_border-24px.svg"></a>
-            <a  id="contact2" href="contact.html"> <img src="images/svgs/email-24px.svg"></a>
-        </div>
-        </div>
-
-
-</div>
   <body>
 
-<!--salebanner-->
-<div class="clearfix">
- <a href="sale.html">
-<div class="saleanimation">
 
 
-<h5>UP TO 50% OFF, OFFER ENDS MAY 27th 2021.</h5>
+<div class="animation">
 
-  <div id="clockdiv">
-  <div id="box">
-  <span class="days" id="day"></span>
-  <div class="smalltext">Days</div>
-  </div>
 
-  <div id="box">
-  <span class="hours" id="hour"></span>
-  <div class="smalltext">Hours</div>
-  </div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><defs><style>.cls-3{font-size:43px;font-family:'Gruppo';}</style></defs><title>REALLOGO</title>
 
-  <div id="box">
-  <span class="minutes" id="minute"></span>
-  <div class="smalltext">Minutes</div>
-  </div>
 
-  <div id="box">
-  <span class="seconds" id="second"></span>
-  <div class="smalltext">Seconds</div>
-  </div>
-  </div>
+<g id="title"><text class="cls-3" transform="translate(-22.38 70)">GOOD VINTAGE</text>
+<animateTransform attributeName="transform"
+type="translate"
+from="49.98 116"
+to="49.98 70"
+begin="2s"
+dur="1.5s"
+fill="freeze"/>
 
-  <p id="demo"></p>
-</div>
-</a>
-</div>
-<!--content-->
-<div class="page">
+<animate attributeName="opacity"
+            values="0;1" dur="1.5s" begin="2s" end="3.5s" fill="freeze"/>
+</g>
+</svg>
 
-  <a href="womens.html">
-    <div class="girls">
-      <img src="images/laura/homelaur copy.jpg">
-      <div class="title">
-
-        <div class="container">
-          <div class="slide_in">Women's</div></div>
-
-      </div>
-    </div>
-  </a>
-
-<a href="men.html">
-    <div class="girls">
-      <img src="images/liamshoot/homeliam copy.jpg">
-      <div class="title2">
-
-        <div class="container">
-          <div class="slide_in2">Men's</div></div>
-
-      </div>
-    </div>
-  </a>
 </div>
 
-  <footer class="footer">
-      <a class="nav" id="home" href="index.html"> <img src="images/svgs/other_houses-24px.svg" id="a"></a>
-      <a class="nav" id="account" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" id="b"></a>
-      <a class="nav" id="wishlist" href="wishlist.html"><img src="images/svgs/favorite_border-24px.svg" id="c"></a>
-      <a class="nav" id="contact" href="contact.html"> <img src="images/svgs/email-24px.svg" id="d"></a>
 
-
-  </footer>
-
-
-<script>
-
-
-//sticky header//
-window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else{
-    header.classList.remove("sticky");
-  }
-}
-
-//countdown//
-var deadline = new Date("May 27, 2021 12:00:00").getTime();
-
-var x = setInterval(function(){
-
-  var now = new Date().getTime();
-  var t = deadline - now;
-  var days = Math.floor(t / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
-  var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((t % (1000 * 60)) / 1000);
-
-document.getElementById("day").innerHTML = days;
-document.getElementById("hour").innerHTML = hours;
-document.getElementById("minute").innerHTML = minutes;
-document.getElementById("second").innerHTML = seconds;
-
-if(t <0){
-  clearInterval(x);
-  document.getElementById("demo").innerHTML = "EXPIRED";
-}
-}, 1000);
-</script>
-<script async src="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.js"></script>
-<div hidden id="snipcart" data-api-key="MzI5MzJlMzctZjdhZS00OTVmLWE2ZDgtYTFlMDkwN2NiYmZkNjM3NTA5MDc0NjEyNjI1MDY5"></div>
 
   </body>
+
+
+
+  <script>
+
+  </script>
+
 </html>

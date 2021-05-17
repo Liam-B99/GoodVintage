@@ -3,132 +3,130 @@
   <head>
     <script src="https://kit.fontawesome.com/a89069ad2d.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Mens page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/men.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://app.snipcart.com">
-  <link rel="preconnect" href="https://cdn.snipcart.com">
-  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css"/>
+    <link rel="preconnect" href="https://cdn.snipcart.com">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
   </head>
+<!--header-->
+<header id="myHeader">
+<div id="logo"><h2>GOOD VINTAGE</h2></div>
+  <span class="snipcart-checkout">
+    <i id="basket"><img src="images/svgs/work_outline-24px.svg" alt="shopping basket" id="carticon"></i>
+  </span>
+  <span class="snipcart-items-count"></span>
+  <div class="nav">
+    <label for="toggle"><img src="images/svgs/dehaze-24px.svg" alt="button to open menu"></label>
+</header>
+<input type="checkbox" id="toggle"/>
 
-  <header id="myHeader">
-    <div id="logo"><img src="images/LLOGO.svg"></div>
+<div class="menu">
+<a href="home.html">Home</a>
+<a href="men.html" style="color:#b30000">Men's</a>
+<a href="womens.html">Women's</a>
+<a href="sale.html">Sale</a>
 
-    <span class="snipcart-checkout">
-      <i id="basket"><img src="images/basket.png" id="carticon"></i>
-    </span>
-    <span class="snipcart-items-count"></span>
-        <div id="hamburger"><img src="images/Hamburger_icon.svg" id="hamicon"></div>
-  </header>
+<div id="logocom"><h2>GOOD VINTAGE</h2></div>
+
+<div class="bar">
+  <a  id="account2" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" alt="link to account page"></a>
+  <a  id="bag2" class="snipcart-checkout"> <img src="images/svgs/work_outline-24px.svg" alt="shopping cart" id="carticoncomputer"></a>
+  <a  id="contact2" href="contact.html"> <img src="images/svgs/email-24px.svg" alt="link to contact page"></a>
+</div>
+    </div>
+
+
+</div>
   <body>
 
-    <nav id="menu" style="right: -100%;">
-      <div class="menuItem" id="contentstitle"><h3>MENU</h3>
-        <div class="closebutton" id="cross"> <img src="images/closebutton.png"></div>
-      </div>
-      <a class="menuItem" href="index.html">
-        <h1>HOME</h1></a>
-        <a class="menuItem" href="index.html">
-          <h1>HOME</h1></a>
-        <a class="menuItem" href="womens.html">
-          <h1>WOMENS</h1></a>
-          <a class="menuItem" href="men.html">
-            <h1>MENS</h1></a>
-            <a class="menuItem" href="sale.html">
-              <h1>SALE</h1></a>
-              <a class="menuItem" href="contact.html">
-                <h2>CONTACT US</h2></a>
-                <a class="menuItem" href="wishlist.html">
-                  <h2>MY WISHLIST</h2></a>
-                  <a class="menuItem" id="accountbutton" style="background-color:lightgray" href="Account.html">
-                    <h1>MY ACCOUNT</h1></a>
-                  </nav>
-          <div id="cover" style="right: -100%;">
-          </div>
+<!--sale animation-->
+<section class="countdown">
+ <a href="sale.html">
+<div class="saleanimation">
 
 
+<h5>UP TO 50% OFF, OFFER ENDS JUNE 27th.</h5>
 
-          <a href="sale.html">
-          <div class="saleanimation">
+  <div id="clockdiv">
+  <div id="box">
+  <span class="days" id="day"></span>
+  <div class="smalltext"><h3>Days</h3></div>
+  </div>
 
+  <div id="box">
+  <span class="hours" id="hour"></span>
+  <div class="smalltext"><h3>Hours</h3></div>
+  </div>
 
-          <h4>UP TO 50% OFF, OFFER ENDS MAY 27th 2021.</h4>
+  <div id="box">
+  <span class="minutes" id="minute"></span>
+  <div class="smalltext"><h3>Minutes</h3></div>
+  </div>
 
-           <div id="clockdiv">
-           <div id="box">
-           <span class="days" id="day"></span>
-           <div class="smalltext">Days</div>
-           </div>
+  <div id="box">
+  <span class="seconds" id="second"></span>
+  <div class="smalltext"><h3>Seconds</h3></div>
+  </div>
+  </div>
 
-           <div id="box">
-           <span class="hours" id="hour"></span>
-           <div class="smalltext">Hours</div>
-           </div>
-
-           <div id="box">
-           <span class="minutes" id="minute"></span>
-           <div class="smalltext">Minutes</div>
-           </div>
-
-           <div id="box">
-           <span class="seconds" id="second"></span>
-           <div class="smalltext">Seconds</div>
-           </div>
-           </div>
-
-           <p id="demo"></p>
-          </div>
-          </a>
-
+  <p id="demo"></p>
+</div>
+</a>
+</section>
 
   <div class="links">
-    <a class="homelink" style="color:black;" href="index.html"><h5>Home /</h5></a>
-    <a class="menlink" href="men.html"><h5>Mens</h5></a>
+    <a class="homelink" style="color:black;" href="home.html"><h4>Home /</h4></a>
+    <a class="menlink" href="men.html"><h4>Mens</h4></a>
   </div>
 
 <!--content-->
 
   <div class="content">
 
-    <section class="item1" id="one"> <img src="images/liamshoot/brownjacket.jpg" onmouseover="this.src='images/liamshoot/brownjacket3.jpg'" onmouseout="this.src='images/liamshoot/brownjacket.jpg'">
+    <section class="item1" id="one"> <img src="images/liamshoot/brownjacket-min.jpg" alt="Brown suede jacket size Medium" onmouseover="this.src='images/liamshoot/brownjacket3-min.jpg'" onmouseout="this.src='images/liamshoot/brownjacket-min.jpg'">
       <h1>Brown Suede Jacket (M)</h1>
-      <p class="price">£19.99</p>
+      <h3 class="price">£19.99</h3>
       <button class="snipcart-add-item"
       data-item-id="Suede"
       data-item-price="19.99"
       data-item-url="https://github.com/Liam-B99/GoodVintage"
-      data-item-image="./images/liamshoot/brownjacket.jpg"
+      data-item-image="./images/liamshoot/brownjacket-min.jpg"
       data-item-name="Purple Sweater (L)">Add to cart</button>
     </section>
 
-    <section class="item1" id="two"> <img src="images/liamshoot/cowjumper2.jpg" onmouseover="this.src='images/liamshoot/cowjumper copy.jpg'" onmouseout="this.src='images/liamshoot/cowjumper2.jpg'">
-      <h1>Knitted Cow Printed Sweater (L)</h1>
-      <p class="price">£15.99</p>
+    <section class="item1" id="two"> <img src="images/liamshoot/cowjumper2-min.jpg" alt="Cow printed jumper size Large" onmouseover="this.src='images/liamshoot/cowjumper copy-min.jpg'" onmouseout="this.src='images/liamshoot/cowjumper2-min.jpg'">
+      <h1>Knitted Cow Sweater (L)</h1>
+      <h3 class="price">£15.99</h3>
       <button class="snipcart-add-item"
       data-item-id="Cow"
       data-item-price="15.99"
       data-item-url="https://github.com/Liam-B99/GoodVintage"
-      data-item-image="./images/liamshoot/cowjumper2.jpg"
+      data-item-image="./images/liamshoot/cowjumper2-min.jpg"
       data-item-name="Knitted Cow Printed Sweater (L)">Add to cart</button>
     </section>
 
 
 
 
-    <section class="item1" id="three"> <img src="images/liamshoot/brownjeans.jpg" onmouseover="this.src='images/liamshoot/whitetop.jpg'" onmouseout="this.src='images/liamshoot/brownjeans.jpg'">
-      <h1> Keith Haring Graphic White T-Shirt (L)</h1>
-      <p class="price">£29.99</p>
+    <section class="item1" id="three"> <img src="images/liamshoot/brownjeans-min.jpg" alt="white Keith Haring T-shirt size Large" onmouseover="this.src='images/liamshoot/whitetop.jpg'" onmouseout="this.src='images/liamshoot/brownjeans-min.jpg'">
+      <h1> Keith Haring Graphic T-Shirt (L)</h1>
+      <h3 class="price">£29.99</h3>
       <button class="snipcart-add-item"
       data-item-id="keith"
       data-item-price="29.99"
       data-item-url="https://github.com/Liam-B99/GoodVintage"
-      data-item-image="./images/liamshoot/brownjeans.jpg"
+      data-item-image="./images/liamshoot/brownjeans-min.jpg"
       data-item-name="Keith Haring Graphic White T-Shirt (L)">Add to cart</button>
     </section>
 
-    <section class="item1" id="four"> <img src="images/liamshoot/kickers.jpg" onmouseover="this.src='images/liamshoot/kickers2.jpg'" onmouseout="this.src='images/liamshoot/kickers.jpg'">
-      <h1>Crew Neck Cream Kickers T-Shirt (M)</h1>
-      <p class="price">£9.99</p>
+    <section class="item1" id="four"> <img src="images/liamshoot/kickers.jpg" alt"Crewneck Kickers T-Shirt size Medium" onmouseover="this.src='images/liamshoot/kickers2.jpg'" onmouseout="this.src='images/liamshoot/kickers.jpg'">
+      <h1>Crew Neck Kickers T-Shirt (M)</h1>
+      <h3 class="price">£9.99</h3>
       <button class="snipcart-add-item"
       data-item-id="kickers"
       data-item-price="9.99"
@@ -140,128 +138,127 @@
 
 
 
-    <section class="item1" id="one"> <img src="images/liamshoot/green1.jpg" onmouseover="this.src='images/liamshoot/green2.jpg'" onmouseout="this.src='images/liamshoot/green1.jpg'">
-      <h1>Harley Davidson T-Shirt (L)</h1>
-      <p class="price">£15.99</p>
-      <button class="snipcart-add-item"
-      data-item-id="harley"
-      data-item-price="15.99"
-      data-item-url="https://github.com/Liam-B99/GoodVintage"
-      data-item-image="./images/liamshoot/green1.jpg"
-      data-item-name="Harley Davidson T-Shirt (L)">Add to cart</button>
-    </section>
+<section class="item1" id="one"> <img src="images/liamshoot/green1-min.jpg" alt"Green Harley Davidson T-Shirt size Large" onmouseover="this.src='images/liamshoot/green2-min.jpg'" onmouseout="this.src='images/liamshoot/green1-min.jpg'">
+  <h1>Harley Davidson T-Shirt (L)</h1>
+  <h3 class="price">£15.99</h3>
+  <button class="snipcart-add-item"
+  data-item-id="harley"
+  data-item-price="15.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/liamshoot/green1-min.jpg"
+  data-item-name="Harley Davidson T-Shirt (L)">Add to cart</button>
+</section>
 
-    <section class="item1" id="two"> <img src="images/liamshoot/greyjumper.jpg" onmouseover="this.src='images/liamshoot/yellowhat.jpg'" onmouseout="this.src='images/liamshoot/greyjumper.jpg'">
-      <h1>Lee Sportswear Jumper (L)</h1>
-      <p class="price">£19.99</p>
-      <button class="snipcart-add-item"
-      data-item-id="Lee"
-      data-item-price="19.99"
-      data-item-url="https://github.com/Liam-B99/GoodVintage"
-      data-item-image="./images/liamshoot/greyjumper.jpg"
-      data-item-name="Lee Sportswear Jumper (L)">Add to cart</button>
-    </section>
-
-
-
-
-    <section class="item1" id="three"> <img src="images/liamshoot/ellese1.jpg" onmouseover="this.src='images/liamshoot/ellese2.jpg'" onmouseout="this.src='images/liamshoot/ellese1.jpg'">
-      <h1>Black Ellese Jumper (S)</h1>
-      <p class="price">£16.99</p>
-      <button class="snipcart-add-item"
-      data-item-id="ellese"
-      data-item-price="16.99"
-      data-item-url="https://github.com/Liam-B99/GoodVintage"
-      data-item-image="./images/liamshoot/ellese1.jpg"
-      data-item-name="Black Ellese Jumper (S)">Add to cart</button>
-    </section>
-
-    <section class="item1" id="four"> <img src="images/liamshoot/jeansdark.jpg" onmouseover="this.src='images/liamshoot/jeansdark2.jpg'" onmouseout="this.src='images/liamshoot/jeansdark.jpg'">
-      <h1>Wide Leg Skater Jeans W32 L32</h1>
-      <p class="price">£9.99</p>
-      <button class="snipcart-add-item"
-      data-item-id="skater"
-      data-item-price="19.99"
-      data-item-url="https://github.com/Liam-B99/GoodVintage"
-      data-item-image="./images/liamshoot/jeansdark.jpg"
-      data-item-name="Wide Leg Skater Jeans W32 L32">Add to cart</button>
-    </section>
-
-
-    <section class="item1" id="three"> <img src="images/liamshoot/nikejacket.jpg" onmouseover="this.src='images/liamshoot/nikejacket2.jpg'" onmouseout="this.src='images/liamshoot/nikejacket.jpg'">
-      <h1>Beige Nike Jacket (L)</h1>
-      <p class="price">£17.99</p>
-      <button class="snipcart-add-item"
-      data-item-id="beigenike"
-      data-item-price="17.99"
-      data-item-url="https://github.com/Liam-B99/GoodVintage"
-      data-item-image="./images/liamshoot/nikejacket.jpg"
-      data-item-name="Beige Nike Jacket (L)">Add to cart</button>
-    </section>
-
-    <section class="item1" id="four"> <img src="images/liamshoot/xmasgilet.jpg" onmouseover="this.src='images/liamshoot/xmasgilet2.jpg'" onmouseout="this.src='images/liamshoot/xmasgilet.jpg'">
-      <h1>Aztec Pattern Gilet (M)</h1>
-      <p class="price">£13.99</p>
-      <button class="snipcart-add-item"
-      data-item-id="xmasgilet"
-      data-item-price="13.99"
-      data-item-url="https://github.com/Liam-B99/GoodVintage"
-      data-item-image="./images/liamshoot/xmasgilet.jpg"
-      data-item-name="Aztec Pattern Gilet (M)">Add to cart</button>
-    </section>
+<section class="item1" id="two"> <img src="images/liamshoot/greyjumper.jpg" alt"Grey Lee Sportswear jumper size Large" onmouseover="this.src='images/sale/yellowhat2.jpg'" onmouseout="this.src='images/liamshoot/greyjumper.jpg'">
+  <h1>Lee Sportswear Jumper (L)</h1>
+  <h3 class="price">£19.99</h3>
+  <button class="snipcart-add-item"
+  data-item-id="Lee"
+  data-item-price="19.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/liamshoot/greyjumper.jpg"
+  data-item-name="Lee Sportswear Jumper (L)">Add to cart</button>
+</section>
 
 
 
-    <section class="item1" id="three"> <img src="images/liamshoot/greenjoggers.jpg" onmouseover="this.src='images/liamshoot/greenjoggers2.jpg'" onmouseout="this.src='images/liamshoot/greenjoggers.jpg'">
-      <h1>Recycled Sweatshirt Jogging Bottoms W32 L32</h1>
-      <p class="price">£21.99</p>
-      <button class="snipcart-add-item"
-      data-item-id="recycled"
-      data-item-price="21.99"
-      data-item-url="https://github.com/Liam-B99/GoodVintage"
-      data-item-image="./images/liamshoot/greenjoggers.jpg"
-      data-item-name="Recycled Sweatshirt Jogging Bottoms W32 L32">Add to cart</button>
-    </section>
 
-    <section class="item1" id="four"> <img src="images/liamshoot/brownjeans2.jpg" onmouseover="this.src='images/liamshoot/brownjeans3.jpg'" onmouseout="this.src='images/liamshoot/brownjeans2.jpg'">
-      <h1>Brown Wide Legged Jeans W32 L32</h1>
-      <p class="price">£24.99</p>
-      <button class="snipcart-add-item"
-      data-item-id="brown"
-      data-item-price="24.99"
-      data-item-url="https://github.com/Liam-B99/GoodVintage"
-      data-item-image="./images/liamshoot/brownjeans2.jpg"
-      data-item-name="Brown Wide Legged Jeans W32 L32">Add to cart</button>
-    </section>
+  <section class="item1" id="three"> <img src="images/liamshoot/ellese1-min.jpg" alt"Black Ellese Jumper size Small" onmouseover="this.src='images/liamshoot/ellese2-min.jpg'" onmouseout="this.src='images/liamshoot/ellese1-min.jpg'">
+    <h1>Black Ellese Jumper (S)</h1>
+    <h3 class="price">£16.99</h3>
+    <button class="snipcart-add-item"
+    data-item-id="ellese"
+    data-item-price="16.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/liamshoot/ellese1-min.jpg"
+    data-item-name="Black Ellese Jumper (S)">Add to cart</button>
+  </section>
+
+  <section class="item1" id="four"> <img src="images/liamshoot/jeansdark.jpg" alt"Wide leg skater jeans 32 waist 32 leg" onmouseover="this.src='images/liamshoot/jeansdark2.jpg'" onmouseout="this.src='images/liamshoot/jeansdark.jpg'">
+    <h1>Wide Leg Jeans W32 L32</h1>
+    <h3 class="price">£9.99</h3>
+    <button class="snipcart-add-item"
+    data-item-id="skater"
+    data-item-price="19.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/liamshoot/jeansdark.jpg"
+    data-item-name="Wide Leg Skater Jeans W32 L32">Add to cart</button>
+  </section>
+
+
+  <section class="item1" id="three"> <img src="images/liamshoot/nikejacket.jpg" alt"Beige Nike Jacket size Large" onmouseover="this.src='images/liamshoot/nikejacket2.jpg'" onmouseout="this.src='images/liamshoot/nikejacket.jpg'">
+    <h1>Beige Nike Jacket (L)</h1>
+    <h3 class="price">£17.99</h3>
+    <button class="snipcart-add-item"
+    data-item-id="beigenike"
+    data-item-price="17.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/liamshoot/nikejacket.jpg"
+    data-item-name="Beige Nike Jacket (L)">Add to cart</button>
+  </section>
+
+  <section class="item1" id="four"> <img src="images/liamshoot/xmasgilet-min.jpg" alt="Pattern Gilet size Medium" onmouseover="this.src='images/liamshoot/xmasgilet2-min.jpg'" onmouseout="this.src='images/liamshoot/xmasgilet-min.jpg'">
+    <h1>Aztec Pattern Gilet (M)</h1>
+    <h3 class="price">£13.99</h3>
+    <button class="snipcart-add-item"
+    data-item-id="xmasgilet"
+    data-item-price="13.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/liamshoot/xmasgilet-min.jpg"
+    data-item-name="Aztec Pattern Gilet (M)">Add to cart</button>
+  </section>
+
+
+
+  <section class="item1" id="three"> <img src="images/liamshoot/greenjoggers-min.jpg" alt="recycled jogging bottoms waist 32 leg 32" onmouseover="this.src='images/liamshoot/greenjoggers2-min.jpg'" onmouseout="this.src='images/liamshoot/greenjoggers-min.jpg'">
+    <h1>Recycled Jogging Bottoms W32 L32</h1>
+    <h3 class="price">£21.99</h3>
+    <button class="snipcart-add-item"
+    data-item-id="recycled"
+    data-item-price="21.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/liamshoot/greenjoggers-min.jpg"
+    data-item-name="Recycled Sweatshirt Jogging Bottoms W32 L32">Add to cart</button>
+  </section>
+
+  <section class="item1" id="four"> <img src="images/liamshoot/brownjeans2-min.jpg" alt="Brown wide leg jeans waist 32 leg 32" onmouseover="this.src='images/liamshoot/brownjeans3-min.jpg'" onmouseout="this.src='images/liamshoot/brownjeans2-min.jpg'">
+    <h1>Brown Wide Legged Jeans W32 L32</h1>
+    <h3 class="price">£24.99</h3>
+    <button class="snipcart-add-item"
+    data-item-id="brown"
+    data-item-price="24.99"
+    data-item-url="https://github.com/Liam-B99/GoodVintage"
+    data-item-image="./images/liamshoot/brownjeans2-min.jpg"
+    data-item-name="Brown Wide Legged Jeans W32 L32">Add to cart</button>
+  </section>
 
 </div>
 
+<footer>
+    <div class="social"><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/home?lang=en-gb"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="home.html">Home</a></li>
+        <li class="list-inline-item"><a href="men.html">Mens</a></li>
+        <li class="list-inline-item"><a href="womens.html">Womens</a></li>
+        <li class="list-inline-item"><a href="sale.html">Sale</a></li>
+        <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <p class="copyright">Good Vintage © 2018</p>
+</footer>
+
 <!--footer-->
 
-<footer class="footer">
-    <a class="nav" id="home" href="index.html"> <img src="images/svgs/other_houses-24px.svg" id="a"></a>
-    <a class="nav" id="account" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" id="b"></a>
-    <a class="nav" id="wishlist" href="wishlist.html"><img src="images/svgs/favorite_border-24px.svg" id="c"></a>
-    <a class="nav" id="contact" href="contact.html"> <img src="images/svgs/email-24px.svg" id="d"></a>
+<div class="fixednav">
+  <a class="nav2" id="home" href="home.html"> <img src="images/svgs/other_houses-24px.svg" alt="link to home page" id="a"></a>
+  <a class="nav2" id="account" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" alt="link to account page" id="b"></a>
+  <a class="nav2" id="contact" href="contact.html"> <img src="images/svgs/email-24px.svg" alt="link to contact us page" id="d"></a>
 
 
-</footer>
+</div>
 
 
 <script>
-//hamburger menu//
-openMenu = () => {
-  document.getElementById('menu').style.right = '0';
-  document.getElementById('cover').style.right = '0';
-}
 
-closeMenu = () => {
-  document.getElementById('menu').style.right = '-100%';
-  document.getElementById('cover').style.right = '-100%';
-}
-
-document.getElementById('hamburger').addEventListener('click', openMenu);
-document.getElementById('cross').addEventListener('click' , closeMenu);
 
 //sticky header//
 window.onscroll = function() {myFunction()};
@@ -278,7 +275,7 @@ function myFunction() {
 }
 
 //countdown//
-var deadline = new Date("May 27, 2021 12:00:00").getTime();
+var deadline = new Date("June 27, 2021 12:00:00").getTime();
 
 var x = setInterval(function(){
 
@@ -300,9 +297,13 @@ if(t <0){
 }
 }, 1000);
 
+
 </script>
 <script async src="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.js"></script>
 <div hidden id="snipcart" data-api-key="MzI5MzJlMzctZjdhZS00OTVmLWE2ZDgtYTFlMDkwN2NiYmZkNjM3NTA5MDc0NjEyNjI1MDY5"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
   </body>
 </html>

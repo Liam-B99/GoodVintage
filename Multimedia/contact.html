@@ -1,105 +1,164 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="https://kit.fontawesome.com/a89069ad2d.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/home.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://app.snipcart.com">
+    <link rel="preconnect" href="https://cdn.snipcart.com">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
   </head>
+<!--header-->
+<header id="myHeader">
+<div id="logo"><h2>GOOD VINTAGE</h2></div>
+  <span class="snipcart-checkout">
+    <i id="basket"><img src="images/svgs/work_outline-24px.svg" alt="shopping basket" id="carticon"></i>
+  </span>
+  <span class="snipcart-items-count"></span>
+  <div class="nav">
+    <label for="toggle"><img src="images/svgs/dehaze-24px.svg" alt="button to open menu"></label>
+</header>
+<input type="checkbox" id="toggle"/>
 
-  <header id="myHeader">
-    <div id="logo"><img src="images/LLOGO.svg"></div>
-      <div id="basket"><img src="images/basket.png" id="carticon"></div>
-        <div id="hamburger"><img src="images/Hamburger_icon.svg" id="hamicon"></div>
-  </header>
-  <body>
+<div class="menu">
+<a href="home.html" style="color:black">Home</a>
+<a href="men.html">Men's</a>
+<a href="womens.html">Women's</a>
+<a href="sale.html">Sale</a>
 
-    <nav id="menu" style="right: -100%;">
-      <div class="menuItem" id="contentstitle"><h3>MENU</h3>
-      <div class="closebutton" id="cross"> <img src="images/closebutton.png"></div>
+<div id="logocom"><h2>GOOD VINTAGE</h2></div>
+
+<div class="bar">
+  <a  id="account2" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" alt="link to account page"></a>
+  <a  id="bag2" class="snipcart-checkout"> <img src="images/svgs/work_outline-24px.svg" alt="shopping cart" id="carticoncomputer"></a>
+  <a  id="contact2" href="contact.html"> <img src="images/svgs/email-24px.svg" alt="link to contact page"></a>
+</div>
     </div>
-      <a class="menuItem" href="index.html">
-        <h1>HOME</h1></a>
-        <a class="menuItem" href="index.html">
-          <h1>HOME</h1></a>
-        <a class="menuItem" href="womens.html">
-          <h1>WOMENS</h1></a>
-          <a class="menuItem" href="men.html">
-            <h1>MENS</h1></a>
-            <a class="menuItem" href="sale.html">
-              <h1>SALE</h1></a>
-              <a class="menuItem" href="contact.html">
-                <h2>CONTACT US</h2></a>
-                <a class="menuItem" href="wishlist.html">
-                  <h2>MY WISHLIST</h2></a>
-                  <a class="menuItem" id="accountbutton" style="background-color:lightgray" href="Account.html">
-                    <h1>MY ACCOUNT</h1></a>
-                  </nav>
-          <div id="cover" style="right: -100%;">
-          </div>
 
 
-<!--salebanner-->
+</div>
+<body>
+<!-- Sale Banner-->
+
+<section class="countdown">
  <a href="sale.html">
 <div class="saleanimation">
 
 
-<h4>UP TO 50% OFF, OFFER ENDS MAY 27th 2021.</h4>
+<h5>UP TO 50% OFF, OFFER ENDS JUNE 27th.</h5>
 
   <div id="clockdiv">
   <div id="box">
   <span class="days" id="day"></span>
-  <div class="smalltext">Days</div>
+  <div class="smalltext"><h3>Days</h3></div>
   </div>
 
   <div id="box">
   <span class="hours" id="hour"></span>
-  <div class="smalltext">Hours</div>
+  <div class="smalltext"><h3>Hours</h3></div>
   </div>
 
   <div id="box">
   <span class="minutes" id="minute"></span>
-  <div class="smalltext">Minutes</div>
+  <div class="smalltext"><h3>Minutes</h3></div>
   </div>
 
   <div id="box">
   <span class="seconds" id="second"></span>
-  <div class="smalltext">Seconds</div>
+  <div class="smalltext"><h3>Seconds</h3></div>
   </div>
   </div>
 
   <p id="demo"></p>
 </div>
 </a>
-<!--content-->
+</section>
 
 
 
-
-<footer class="footer">
-    <a class="nav" id="home" href="index.html"> <img src="images/svgs/other_houses-24px.svg" id="a"></a>
-    <a class="nav" id="account" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" id="b"></a>
-    <a class="nav" id="wishlist" href="wishlist.html"><img src="images/svgs/favorite_border-24px.svg" id="c"></a>
-    <a class="nav" id="contact" href="contact.html"> <img src="images/svgs/email-24px.svg" id="d"></a>
+<div class="links">
+  <a class="homelink" style="color:black;" href="home.html"><h4>Home   /</h4></a>
+  <a class="menlink" href="contact.html"><h4>Contact us</h4></a>
+</div>
 
 
+<div class="row">
+
+  <div class="col-6">
+
+    <center><h2>FAQ's</h2></center>
+
+    <div class="dropdown">
+    <button id="myBtn" class="dropbtn"><h1>Click here for some frequently asked questions regarding our service</h1></button>
+      <div id="myDropdown" class="dropdown-content">
+        <h1>Q. When will my parcel get delivered?</h1>
+        <h4>A. Delivery usually takes between 7-14 working days. If you have not recieved your parcel by this time please email good.vintage@services.com</h4>
+        <h1>Q. Do you deliver on Sundays?</h1>
+        <h4>A. We do not deliver on Sundays nor bank holidays. If your parcel is planned for either of these days, you should recieve it the following working day.</h4>
+        <h1>Q. What is our return policy?</h1>
+        <h4>A. If you wish to return a product, return within 30 days from the date of dispatch via post from anywhere in the UK</h4>
+        <h1>Q. I have a problem with my order</h1>
+        <h4>If you have any problems with your order, our customer services team are on hand to help and wull reply the same day.</h4>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="col-6" id="contactus">
+    <div id="contactinfo">
+    <center><h2>Send us a message</h2></center>
+    <h1>Want to enquire about any product? Send us an email and get a response in 24 hours.</h1>
+    </div>
+    <div class='contactform'>
+    <form action="mailto:liam_b99@outlook.com" method="post" enctype="text/plain">
+    <h1>Name:</h1>
+    <h1><input type="text" name="name"></h1>
+    <h1>E-mail:</h1>
+    <h1><input type="text" name="mail"></h1>
+    <h1>Message:</h1>
+    <h1><textarea type="text" name="comment" rows="12" cols="30" size="50"></textarea></h1>
+    <button><input type="submit" value="Send" id="emailsend"></button>
+    </form>
+
+    </div>
+  </div>
+  </div> <!-- 100% -->
+
+
+
+<!---footer-->
+
+<footer>
+    <div class="social"><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/home?lang=en-gb"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="home.html">Home</a></li>
+        <li class="list-inline-item"><a href="men.html">Mens</a></li>
+        <li class="list-inline-item"><a href="womens.html">Womens</a></li>
+        <li class="list-inline-item"><a href="sale.html">Sale</a></li>
+        <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <p class="copyright">Good Vintage © 2018</p>
 </footer>
 
 
+<!--footer-->
+
+<div class="fixednav">
+  <a class="nav2" id="home" href="home.html"> <img src="images/svgs/other_houses-24px.svg" alt="link to home page" id="a"></a>
+  <a class="nav2" id="account" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" alt="link to account page" id="b"></a>
+  <a class="nav2" id="contact" href="contact.html"> <img src="images/svgs/email-24px.svg" alt="link to contact us page" id="d"></a>
+
+
+</div>
+
+
 <script>
-//hamburger menu//
-openMenu = () => {
-  document.getElementById('menu').style.right = '0';
-  document.getElementById('cover').style.right = '0';
-}
-
-closeMenu = () => {
-  document.getElementById('menu').style.right = '-100%';
-  document.getElementById('cover').style.right = '-100%';
-}
-
-document.getElementById('hamburger').addEventListener('click', openMenu);
-document.getElementById('cross').addEventListener('click' , closeMenu);
 
 //sticky header//
 window.onscroll = function() {myFunction()};
@@ -116,7 +175,7 @@ function myFunction() {
 }
 
 //countdown//
-var deadline = new Date("May 27, 2021 12:00:00").getTime();
+var deadline = new Date("June 27, 2021 12:00:00").getTime();
 
 var x = setInterval(function(){
 
@@ -137,8 +196,34 @@ if(t <0){
   document.getElementById("demo").innerHTML = "EXPIRED";
 }
 }, 1000);
-</script>
 
+// Get the button, and when the user clicks on it, execute myFunction
+document.getElementById("myBtn").onclick = function() {myFunction()};
+
+/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+<script async src="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.js">
+</script>
+<div hidden id="snipcart" data-api-key="MzI5MzJlMzctZjdhZS00OTVmLWE2ZDgtYTFlMDkwN2NiYmZkNjM3NTA5MDc0NjEyNjI1MDY5"></div>
 
   </body>
 </html>

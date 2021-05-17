@@ -4,298 +4,298 @@
     <script src="https://kit.fontawesome.com/a89069ad2d.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/sale.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://app.snipcart.com">
     <link rel="preconnect" href="https://cdn.snipcart.com">
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
   </head>
 <!--header-->
 <header id="myHeader">
-<div id="logo"><img src="images/LLOGO.svg"></div>
-
+<div id="logo"><h2>GOOD VINTAGE</h2></div>
   <span class="snipcart-checkout">
-    <i id="basket"><img src="images/basket.png" id="carticon"></i>
+    <i id="basket"><img src="images/svgs/work_outline-24px.svg" alt="shopping basket" id="carticon"></i>
   </span>
   <span class="snipcart-items-count"></span>
-
-
-
-    <div id="hamburger"><img src="images/Hamburger_icon.svg" id="hamicon"></div>
+  <div class="nav">
+    <label for="toggle"><img src="images/svgs/dehaze-24px.svg" alt="button to open menu"></label>
 </header>
-  <body>
-<!--hamburger menu-->
-    <nav id="menu" style="right: -100%;">
-      <div class="menuItem" id="contentstitle"><h3>MENU</h3>
-        <div class="closebutton" id="cross"> <img src="images/closebutton.png"></div>
-      </div>
-      <a class="menuItem" href="index.html">
-        <h1>HOME</h1></a>
-        <a class="menuItem" href="index.html">
-          <h1>HOME</h1></a>
-        <a class="menuItem" href="womens.html">
-          <h1>WOMENS</h1></a>
-          <a class="menuItem" href="men.html">
-            <h1>MENS</h1></a>
-            <a class="menuItem" href="sale.html">
-              <h1>SALE</h1></a>
-              <a class="menuItem" href="contact.html">
-                <h2>CONTACT US</h2></a>
-                <a class="menuItem" href="wishlist.html">
-                  <h2>MY WISHLIST</h2></a>
-                  <a class="menuItem" id="accountbutton" style="background-color:lightgray" href="Account.html">
-                    <h1>MY ACCOUNT</h1></a>
-                  </nav>
-          <div id="cover" style="right: -100%;">
-          </div>
+<input type="checkbox" id="toggle"/>
 
-          <div class="links">
-            <a class="homelink" style="color:black;" href="index.html"><h5>Home   /</h5></a>
-            <a class="menlink" href="sale.html"><h5>Sale</h5></a>
-          </div>
+<div class="menu">
+<a href="home.html">Home</a>
+<a href="men.html">Men's</a>
+<a href="womens.html">Women's</a>
+<a href="sale.html" style="color:#b30000">Sale</a>
+
+<div id="logocom"><h2>GOOD VINTAGE</h2></div>
+
+<div class="bar">
+  <a  id="account2" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" alt="link to account page"></a>
+  <a  id="bag2" class="snipcart-checkout"> <img src="images/svgs/work_outline-24px.svg" alt="shopping cart" id="carticoncomputer"></a>
+  <a  id="contact2" href="contact.html"> <img src="images/svgs/email-24px.svg" alt="link to contact page"></a>
+</div>
+    </div>
+
+
+</div>
+<body>
+
+
 <!-- Sale Banner-->
+<section class="countdown">
+ <a href="sale.html">
 <div class="saleanimation">
 
 
+<h5>UP TO 50% OFF, OFFER ENDS JUNE 27th.</h5>
 
-<div id="clockdiv">
-<div id="box">
-<span class="days" id="day"></span>
-<div class="smalltext">Days</div>
+  <div id="clockdiv">
+  <div id="box">
+  <span class="days" id="day"></span>
+  <div class="smalltext"><h3>Days</h3></div>
+  </div>
+
+  <div id="box">
+  <span class="hours" id="hour"></span>
+  <div class="smalltext"><h3>Hours</h3></div>
+  </div>
+
+  <div id="box">
+  <span class="minutes" id="minute"></span>
+  <div class="smalltext"><h3>Minutes</h3></div>
+  </div>
+
+  <div id="box">
+  <span class="seconds" id="second"></span>
+  <div class="smalltext"><h3>Seconds</h3></div>
+  </div>
+  </div>
+
+  <p id="demo"></p>
 </div>
+</a>
+</section>
 
-<div id="box">
-<span class="hours" id="hour"></span>
-<div class="smalltext">Hours</div>
+
+<div class="links">
+  <a class="homelink" style="color:black;" href="home.html"><h4>Home   /</h4></a>
+  <a class="menlink" href="sale.html"><h4>Sale</h4></a>
 </div>
-
-<div id="box">
-<span class="minutes" id="minute"></span>
-<div class="smalltext">Minutes</div>
-</div>
-
-<div id="box">
-<span class="seconds" id="second"></span>
-<div class="smalltext">Seconds</div>
-</div>
-</div>
-
-<p id="demo"></p>
-
-</div>
-
 
 <!--content--->
 <div class="content">
 
-  <section class="item1"> <img src="images/sale/black.jpg" onmouseover="this.src='images/sale/black2.jpg'" onmouseout="this.src='images/sale/black.jpg'">
-  <h1>Black 'iets frans' Cap</h1>
+<section class="item1"> <img src="images/sale/black-min.jpg" alt="Black iets frans cap" onmouseover="this.src='images/sale/black2-min.jpg'" onmouseout="this.src='images/sale/black-min.jpg'">
+<h1>Black 'iets frans' Cap</h1>
+<div class="number">
+  <h3 class="newprice">£7.99</h3>
+  <h3 class="price1">£13.99</h3>
+</div>
+<button class="snipcart-add-item"
+data-item-id="blackcap"
+data-item-price="7.99"
+data-item-url="https://github.com/Liam-B99/GoodVintage"
+data-item-image="./images/sale/black-min.jpg"
+data-item-name="Black 'iets frans' Cap">Add to Cart</button>
+</section>
+
+<section class="item1"> <img src="images/sale/champion1-min.jpg" alt="Yellow champion jumper size medium" onmouseover="this.src='images/sale/champion2-min.jpg'" onmouseout="this.src='images/sale/champion1-min.jpg'">
+  <h1>Yellow Champion Jumper (M)</h1>
+<div class="number">
+  <h3 class="newprice">£16.99</h3>
+<h3 class="price1">£21.99</h3>
+</div>
+<button class="snipcart-add-item"
+data-item-id="champion"
+data-item-price="16.99"
+data-item-url="https://github.com/Liam-B99/GoodVintage"
+data-item-image="./images/sale/champion1-min.jpg"
+data-item-name="Yellow Champion Jumper (M)">Add to Cart</button>
+</section>
+
+
+
+
+<section class="item1"> <img src="images/sale/blackgilet2-min.jpg" alt="Black gilet size large" onmouseover="this.src='images/sale/blackgilet-min.jpg'" onmouseout="this.src='images/sale/blackgilet2-min.jpg'">
+<h1>Black Gilet (L)</h1>
+<div class="number">
+<h3 class="newprice">£17.99</h3>
+<h3 class="price1">£24.99</h3>
+</div>
+<button class="snipcart-add-item"
+data-item-id="blackgilet"
+data-item-price="17.99"
+data-item-url="https://github.com/Liam-B99/GoodVintage"
+data-item-image="./images/sale/blackgilet2-min.jpg"
+data-item-name="Black Gilet (L)">Add to cart</button>
+</section>
+
+<section class="item1"> <img src="images/sale/blackhat-min.jpg" alt="black bucket hat" onmouseover="this.src='images/sale/blackhat2-min.jpg'" onmouseout="this.src='images/sale/blackhat-min.jpg'">
+  <h1>Black Bucket Hat</h1>
   <div class="number">
-    <p class="price1">£13.99</p>
-    <p class="newprice">£7.99</p>
-  </div>
+  <h3 class="newprice">£7.99</h3>
+  <h3 class="price1">£13.99</h3>
+</div>
   <button class="snipcart-add-item"
-  data-item-id="blackcap"
+  data-item-id="blackbucket"
   data-item-price="7.99"
   data-item-url="https://github.com/Liam-B99/GoodVintage"
-  data-item-image="./images/sale/black.jpg"
-  data-item-name="Black 'iets frans' Cap">Add to Cart</button>
-  </section>
+  data-item-image="./images/sale/blackhat-min.jpg"
+  data-item-name="Black Bucket Hat">Add to cart</button>
+</section>
 
-  <section class="item1"> <img src="images/sale/champion1.jpg" onmouseover="this.src='images/sale/champion2.jpg'" onmouseout="this.src='images/sale/champion1.jpg'">
-    <h1>Yellow Champion Jumper (M)</h1>
+
+
+
+<section class="item1"> <img src="images/sale/checkered3-min.jpg" alt="Grey flannel shirt size large" onmouseover="this.src='images/sale/checkered2-min.jpg'" onmouseout="this.src='images/sale/checkered3-min.jpg'">
+  <h1> Grey Flannel Shirt (L)</h1>
   <div class="number">
-  <p class="price1">£21.99</p>
-  <p class="newprice">£16.99</p>
-  </div>
+    <h3 class="newprice">£11.99</h3>
+  <h3 class="price1">£15.99</h3>
+</div>
   <button class="snipcart-add-item"
   data-item-id="champion"
-  data-item-price="16.99"
+  data-item-price="11.99"
   data-item-url="https://github.com/Liam-B99/GoodVintage"
-  data-item-image="./images/sale/champion1.jpg"
-  data-item-name="Yellow Champion Jumper (M)">Add to Cart</button>
-  </section>
+  data-item-image="./images/sale/checkered3-min.jpg"
+  data-item-name="Grey Flannel Shirt (L)">Add to cart</button>
+</section>
 
-
-
-
-  <section class="item1"> <img src="images/sale/blackgilet2.jpg" onmouseover="this.src='images/sale/blackgilet.jpg'" onmouseout="this.src='images/sale/blackgilet2.jpg'">
-  <h1>Black Gilet (L)</h1>
+<section class="item1"> <img src="images/sale/disney1-min.jpg" alt="grey Disney t-shirt size medium" onmouseover="this.src='images/sale/disney2-min.jpg'" onmouseout="this.src='images/sale/disney1-min.jpg'">
+  <h1>Disney T-Shirt (M)</h1>
   <div class="number">
-  <p class="price1">£24.99</p>
-  <p class="newprice">£17.99</p>
-  </div>
+      <h3 class="newprice">£4.99</h3>
+  <h3 class="price1">£8.99</h3>
+</div>
   <button class="snipcart-add-item"
-  data-item-id="blackgilet"
-  data-item-price="17.99"
+  data-item-id="Disney"
+  data-item-price="4.99"
   data-item-url="https://github.com/Liam-B99/GoodVintage"
-  data-item-image="./images/sale/blackgilet2.jpg"
-  data-item-name="Black Gilet (L)">Add to cart</button>
-  </section>
-
-  <section class="item1"> <img src="images/sale/blackhat.jpg" onmouseover="this.src='images/sale/blackhat2.jpg'" onmouseout="this.src='images/sale/blackhat.jpg'">
-    <h1>Black Bucket Hat</h1>
-    <div class="number">
-    <p class="price1">£13.99</p>
-    <p class="newprice">£7.99</p>
-  </div>
-    <button class="snipcart-add-item"
-    data-item-id="blackbucket"
-    data-item-price="7.99"
-    data-item-url="https://github.com/Liam-B99/GoodVintage"
-    data-item-image="./images/sale/blackhat.jpg"
-    data-item-name="Black Bucket Hat">Add to cart</button>
-  </section>
+  data-item-image="./images/sale/disney1-min.jpg"
+  data-item-name="Disney T-Shirt (M)">Add to cart</button>
+</section>
 
 
 
 
-  <section class="item1"> <img src="images/sale/checkered3.jpg" onmouseover="this.src='images/sale/checkered2.jpg'" onmouseout="this.src='images/sale/checkered3.jpg'">
-    <h1> Grey Flannel Shirt (L)</h1>
-    <div class="number">
-    <p class="price1">£15.99</p>
-    <p class="newprice">£11.99</p>
-  </div>
-    <button class="snipcart-add-item"
-    data-item-id="champion"
-    data-item-price="11.99"
-    data-item-url="https://github.com/Liam-B99/GoodVintage"
-    data-item-image="./images/sale/checkered3.jpg"
-    data-item-name="Grey Flannel Shirt (L)">Add to cart</button>
-  </section>
+<section class="item1"> <img src="images/sale/ralphhat-min.jpg" alt="Beige Ralph Lauren cap" onmouseover="this.src='images/sale/greyjacket2-min.jpg'" onmouseout="this.src='images/sale/ralphhat-min.jpg'">
+  <h1>Beige Ralph Lauren Cap</h1>
+  <div class="number">
+    <h3 class="newprice">£8.99</h3>
+  <h3 class="price1">£11.99</h3>
+</div>
+  <button class="snipcart-add-item"
+  data-item-id="ralphhat"
+  data-item-price="8.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/sale/ralphhat-min.jpg"
+  data-item-name="Beige Ralph Lauren Cap">Add to cart</button>
+</section>
 
-  <section class="item1"> <img src="images/sale/disney1.jpg" onmouseover="this.src='images/sale/disney2.jpg'" onmouseout="this.src='images/sale/disney1.jpg'">
-    <h1>Disney T-Shirt (M)</h1>
-    <div class="number">
-    <p class="price1">£8.99</p>
-    <p class="newprice">£4.99</p>
-  </div>
-    <button class="snipcart-add-item"
-    data-item-id="Disney"
-    data-item-price="4.99"
-    data-item-url="https://github.com/Liam-B99/GoodVintage"
-    data-item-image="./images/sale/disney1.jpg"
-    data-item-name="Disney T-Shirt (M)">Add to cart</button>
-  </section>
-
-
-
-
-  <section class="item1"> <img src="images/sale/ralphhat.jpg" onmouseover="this.src='images/sale/greyjacket2.jpg'" onmouseout="this.src='images/sale/ralphhat.jpg'">
-    <h1>Beige Ralph Lauren Cap</h1>
-    <div class="number">
-    <p class="price1">£11.99</p>
-    <p class="newprice">£8.99</p>
-  </div>
-    <button class="snipcart-add-item"
-    data-item-id="ralphhat"
-    data-item-price="8.99"
-    data-item-url="https://github.com/Liam-B99/GoodVintage"
-    data-item-image="./images/sale/ralphhat.jpg"
-    data-item-name="Beige Ralph Lauren Cap">Add to cart</button>
-  </section>
-
-  <section class="item1"> <img src="images/sale/jeans.jpg" onmouseover="this.src='images/sale/jeans2.jpg'" onmouseout="this.src='images/sale/jeans.jpg'">
-    <h1>Blue Washed Jeans (M)</h1>
-    <div class="number">
-    <p class="price1">£12.99</p>
-    <p class="newprice">£10.99</p>
-  </div>
-    <button class="snipcart-add-item"
-    data-item-id="bluejeans"
-    data-item-price="10.99"
-    data-item-url="https://github.com/Liam-B99/GoodVintage"
-    data-item-image="./images/sale/jeans.jpg"
-    data-item-name="Blue Washed Jeans (M)">Add to cart</button>
-  </section>
+<section class="item1"> <img src="images/sale/jeans-min.jpg" alt="blue washed jeans sized medium" onmouseover="this.src='images/sale/jeans2-min.jpg'" onmouseout="this.src='images/sale/jeans-min.jpg'">
+  <h1>Blue Washed Jeans (M)</h1>
+  <div class="number">
+    <h3 class="newprice">£10.99</h3>
+  <h3 class="price1">£12.99</h3>
+</div>
+  <button class="snipcart-add-item"
+  data-item-id="bluejeans"
+  data-item-price="10.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/sale/jeans-min.jpg"
+  data-item-name="Blue Washed Jeans (M)">Add to cart</button>
+</section>
 
 
 
-  <section class="item1"> <img src="images/sale/ralphvest2.jpg" onmouseover="this.src='images/sale/ralphvest.jpg'" onmouseout="this.src='images/sale/ralphvest2.jpg'">
-    <h1>Ralph Lauren Sweater Vest (L)</h1>
-    <div class="number">
-    <p class="price1">£21.99</p>
-    <p class="newprice">£13.99</p>
-  </div>
-    <button class="snipcart-add-item"
-    data-item-id="champion"
-    data-item-price="13.99"
-    data-item-url="https://github.com/Liam-B99/GoodVintage"
-    data-item-image="./images/sale/ralphvest2.jpg"
-    data-item-name="Ralph Lauren Sweater Vest (L)">Add to cart</button>
-  </section>
+<section class="item1"> <img src="images/sale/ralphvest2-min.jpg" alt="Ralph lauren sweater vest size large" onmouseover="this.src='images/sale/ralphvest-min.jpg'" onmouseout="this.src='images/sale/ralphvest2-min.jpg'">
+  <h1>Ralph Lauren Sweater Vest (L)</h1>
+  <div class="number">
+    <h3 class="newprice">£13.99</h3>
+  <h3 class="price1">£21.99</h3>
+</div>
+  <button class="snipcart-add-item"
+  data-item-id="champion"
+  data-item-price="13.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/sale/ralphvest2-min.jpg"
+  data-item-name="Ralph Lauren Sweater Vest (L)">Add to cart</button>
+</section>
 
-  <section class="item1"> <img src="images/sale/windbreak:jogging.jpg" onmouseover="this.src='images/sale/jogging1.jpg'" onmouseout="this.src='images/sale/windbreak:jogging.jpg'">
-    <h1>Adidas Tracksuit Bottoms (M)</h1>
-    <div class="number">
-    <p class="price1">£16.99</p>
-    <p class="newprice">£9.99</p>
-  </div>
-    <button class="snipcart-add-item"
-    data-item-id="navybottoms"
-    data-item-price="19.99"
-    data-item-url="https://github.com/Liam-B99/GoodVintage"
-    data-item-image="./images/sale/windbreak:jogging.jpg"
-    data-item-name="Navy Adidas Tracksuit Bottoms (M)">Add to cart</button>
-  </section>
+<section class="item1"> <img src="images/sale/windbreak:jogging.jpg" alt="Adidas tracksuit bottoms size medium" onmouseover="this.src='images/sale/jogging1-min.jpg'" onmouseout="this.src='images/sale/windbreak:jogging.jpg'">
+  <h1>Adidas Tracksuit Bottoms (M)</h1>
+  <div class="number">
+    <h3 class="newprice">£9.99</h3>
+  <h3 class="price1">£16.99</h3>
+</div>
+  <button class="snipcart-add-item"
+  data-item-id="navybottoms"
+  data-item-price="19.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/sale/windbreak:jogging.jpg"
+  data-item-name="Navy Adidas Tracksuit Bottoms (M)">Add to cart</button>
+</section>
 
 
 
-  <section class="item1"> <img src="images/sale/yellowhat2.jpg" onmouseover="this.src='images/liamshoot/yellowhat.jpg'" onmouseout="this.src='images/sale/yellowhat2.jpg'">
-    <h1>Yellow Bucket Hat</h1>
-    <div class="number">
-    <p class="price1">£13.99</p>
-    <p class="newprice">£6.99</p>
-  </div>
-    <button class="snipcart-add-item"
-    data-item-id="yellowbucket"
-    data-item-price="6.99"
-    data-item-url="https://github.com/Liam-B99/GoodVintage"
-    data-item-image="./images/sale/yellowhat2.jpg"
-    data-item-name="Yellow Bucket Hat">Add to cart</button>
-  </section>
+<section class="item1"> <img src="images/sale/yellowhat2.jpg" alt="yellow bucket hat" onmouseover="this.src='images/liamshoot/yellowhat-min.jpg'" onmouseout="this.src='images/sale/yellowhat2.jpg'">
+  <h1>Yellow Bucket Hat</h1>
+  <div class="number">
+    <h3 class="newprice">£6.99</h3>
+  <h3 class="price1">£13.99</h3>
+</div>
+  <button class="snipcart-add-item"
+  data-item-id="yellowbucket"
+  data-item-price="6.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/sale/yellowhat2.jpg"
+  data-item-name="Yellow Bucket Hat">Add to cart</button>
+</section>
 
-  <section class="item1"> <img src="images/sale/jeans111.jpg" onmouseover="this.src='images/sale/jeans11.jpg'" onmouseout="this.src='images/sale/jeans111.jpg'">
-    <h1>Jeans (M)</h1>
-    <div class="number">
-    <p class="price1">£13.99</p>
-    <p class="newprice">£8.99</p>
-  </div>
-    <button class="snipcart-add-item"
-    data-item-id="Jeans"
-    data-item-price="8.99"
-    data-item-url="https://github.com/Liam-B99/GoodVintage"
-    data-item-image="./images/sale/jeans111.jpg"
-    data-item-name="Jeans (M)">Add to cart</button>
-  </section>
+<section class="item1"> <img src="images/sale/jeans111-min.jpg" alt="Jeans size medium" onmouseover="this.src='images/sale/jeans11-min.jpg'" onmouseout="this.src='images/sale/jeans111-min.jpg'">
+  <h1>Jeans (M)</h1>
+  <div class="number">
+    <h3 class="newprice">£8.99</h3>
+  <h3 class="price1">£13.99</h3>
+</div>
+  <button class="snipcart-add-item"
+  data-item-id="Jeans"
+  data-item-price="8.99"
+  data-item-url="https://github.com/Liam-B99/GoodVintage"
+  data-item-image="./images/sale/jeans111-min.jpg"
+  data-item-name="Jeans (M)">Add to cart</button>
+</section>
 
 
 </div>
 <!---footer-->
-<footer class="footer">
-    <a class="nav" id="home" href="index.html"> <img src="images/svgs/other_houses-24px.svg" id="a"></a>
-    <a class="nav" id="account" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" id="b"></a>
-    <a class="nav" id="wishlist" href="wishlist.html"><img src="images/svgs/favorite_border-24px.svg" id="c"></a>
-    <a class="nav" id="contact" href="contact.html"> <img src="images/svgs/email-24px.svg" id="d"></a>
-
-
+<footer>
+    <div class="social"><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/home?lang=en-gb"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="home.html">Home</a></li>
+        <li class="list-inline-item"><a href="men.html">Mens</a></li>
+        <li class="list-inline-item"><a href="womens.html">Womens</a></li>
+        <li class="list-inline-item"><a href="sale.html">Sale</a></li>
+        <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <p class="copyright">Good Vintage © 2018</p>
 </footer>
 
+<!--footer-->
+
+<div class="fixednav">
+  <a class="nav2" id="home" href="home.html"> <img src="images/svgs/other_houses-24px.svg" alt="link to home page" id="a"></a>
+  <a class="nav2" id="account" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" alt="link to account page" id="b"></a>
+  <a class="nav2" id="contact" href="contact.html"> <img src="images/svgs/email-24px.svg" alt="link to contact us page" id="d"></a>
+
+
+</div>
 
 <script>
-//hamburger menu//
-openMenu = () => {
-  document.getElementById('menu').style.right = '0';
-  document.getElementById('cover').style.right = '0';
-}
-
-closeMenu = () => {
-  document.getElementById('menu').style.right = '-100%';
-  document.getElementById('cover').style.right = '-100%';
-}
-
-document.getElementById('hamburger').addEventListener('click', openMenu);
-document.getElementById('cross').addEventListener('click' , closeMenu);
 
 //sticky header//
 window.onscroll = function() {myFunction()};
@@ -337,7 +337,6 @@ if(t <0){
 </script>
 <script async src="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.js"></script>
 <div hidden id="snipcart" data-api-key="MzI5MzJlMzctZjdhZS00OTVmLWE2ZDgtYTFlMDkwN2NiYmZkNjM3NTA5MDc0NjEyNjI1MDY5"></div>
-
 
   </body>
 </html>
