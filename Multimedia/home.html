@@ -3,11 +3,10 @@
   <head>
     <script src="https://kit.fontawesome.com/a89069ad2d.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/home.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://app.snipcart.com">
     <link rel="preconnect" href="https://cdn.snipcart.com">
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css"/>
@@ -17,119 +16,153 @@
 <!--header-->
 <header id="myHeader">
 <div id="logo"><h2>GOOD VINTAGE</h2></div>
-
   <span class="snipcart-checkout">
-    <i id="basket"><img src="images/svgs/work_outline-24px.svg" id="carticon"></i>
+    <i id="basket"><img src="images/svgs/work_outline-24px.svg" alt="shopping basket" id="carticon"></i>
   </span>
   <span class="snipcart-items-count"></span>
   <div class="nav">
-    <label for="toggle"><img src="images/svgs/dehaze-24px.svg"></label>
+    <label for="toggle"><img src="images/svgs/dehaze-24px.svg" alt="button to open menu"></label>
 </header>
 <input type="checkbox" id="toggle"/>
 
 <div class="menu">
-<a href="home.html">Home</a>
+<a href="home.html" style="color:#b30000">Home</a>
 <a href="men.html">Men's</a>
 <a href="womens.html">Women's</a>
 <a href="sale.html">Sale</a>
 
 <div id="logocom"><h2>GOOD VINTAGE</h2></div>
 
-        <div class="bar">
-          <a  id="account2" href="Account.html"> <img src="images/svgs/person_outline-24px.svg"></a>
-          <a  id="bag2" href="Account.html"> <img src="images/svgs/work_outline-24px.svg"></a>
-          <a  id="wishlist2" href="wishlist.html"><img src="images/svgs/favorite_border-24px.svg"></a>
-          <a  id="contact2" href="contact.html"> <img src="images/svgs/email-24px.svg"></a>
-      </div>
-      </div>
+<div class="bar">
+  <a  id="account2" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" alt="link to account page"></a>
+  <a  id="bag2" class="snipcart-checkout"> <img src="images/svgs/work_outline-24px.svg" alt="shopping cart" id="carticoncomputer"></a>
+  <a  id="contact2" href="contact.html"> <img src="images/svgs/email-24px.svg" alt="link to contact page"></a>
+</div>
+    </div>
 
 
 </div>
-
+<body>
 <!-- Sale Banner-->
-<div class="clearfix">
+
+<section class="countdown">
  <a href="sale.html">
 <div class="saleanimation">
 
 
-<h5>UP TO 50% OFF, OFFER ENDS MAY 27th.</h5>
+<h5>UP TO 50% OFF, OFFER ENDS JUNE 27th.</h5>
 
   <div id="clockdiv">
-  <div id="box">
+  <div class="box">
   <span class="days" id="day"></span>
-  <div class="smalltext">Days</div>
+  <div class="smalltext"><h3>Days</h3></div>
   </div>
 
-  <div id="box">
+  <div class="box">
   <span class="hours" id="hour"></span>
-  <div class="smalltext">Hours</div>
+  <div class="smalltext"><h3>Hours</h3></div>
   </div>
 
-  <div id="box">
+  <div class="box">
   <span class="minutes" id="minute"></span>
-  <div class="smalltext">Minutes</div>
+  <div class="smalltext"><h3>Minutes</h3></div>
   </div>
 
-  <div id="box">
+  <div class="box">
   <span class="seconds" id="second"></span>
-  <div class="smalltext">Seconds</div>
+  <div class="smalltext"><h3>Seconds</h3></div>
   </div>
   </div>
 
   <p id="demo"></p>
 </div>
 </a>
-</div>
+</section>
 
-<div class="page">
-
-  <a href="womens.html">
-    <div class="girls">
-      <img src="images/laura/homelaur copy.jpg">
-      <div class="title">
-
-        <div class="container">
-          <div class="slide_in">Women's</div></div>
-
-      </div>
-    </div>
-  </a>
+<div class="row">
 
 <a href="men.html">
-    <div class="girls">
-      <img src="images/liamshoot/homeliam copy.jpg">
-      <div class="title2">
+      <div class="col-12" id="liamhome">
+            <div class="girls">
+              <img src="images/liamshoot/homepagebannermens.jpg" alt="link to mens page">
+              <div class="title2">
 
-        <div class="container">
-          <div class="slide_in2">Men's</div></div>
+                <div class="container">
+                  <div class="slide_in2">Men's</div></div>
 
+              </div>
+            </div>
       </div>
-    </div>
-  </a>
+</a>
+    <a href="womens.html">
+      <div class="col-12" id="laurahome">
+            <div class="girls">
+              <img src="images/laura/womenbanner.jpg" alt="link to womens page">
+              <div class="title">
+
+                <div class="container">
+                  <div class="slide_in">Women's</div></div>
+
+              </div>
+            </div>
+
+        </div>
+        </a>
+  </div>
+
+<div class="row">
+  <div class="col-2">
+<div id="liamoutside"><img src="images/liamshoot/IMG_2804.JPG" alt="male posing outside"></div>
+
+  </div> <!-- 25% -->
+  <div class="col-6">
+    <video width="100" autoplay muted id="video">
+      <source src="videos/goodvintagevideo.mp4" type="video/mp4">
+      <source src="videos/goodvintagevideo.ogg" type="video/ogg">
+    </video>
+  </div>
+  <div class="col-4" id="lauraoutside"><img src="images/laura/lauraoutside.jpg" alt="female posing outside"></div> <!-- 25% -->
 </div>
 
+<a href="sale.html">
+  <div class="row">
+    <div class="col-12">
+      <div id="flash"><h2>Go to sale now</h2>
+        <img src="images/laura/homebanner.png" alt="link to sale page">
+      </div>
+    </div> <!-- 100% -->
+  </div>
+</a>
+<div class="row">
+  <div class="col-12" id="modelswanted"><img src="images/liamshoot/IMG_2330.jpg" alt="models wanted promotion">
+    <aside>
+      <h2>Fancy becoming a model?</h2>
+    <h1>Good Vintage is looking for new models aged 18-24. Contact us using our email: liam_b99@outlook.com</h1>
+    </aside>
+  </div> <!-- 33% -->
+
+</div>
 <!---footer-->
-<div class="footer-basic">
-        <footer>
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Terms</a></li>
-                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-            </ul>
-            <p class="copyright">Good Vintage © 2018</p>
-        </footer>
-    </div>
+
+<footer>
+    <div class="social"><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/home?lang=en-gb"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="home.html">Home</a></li>
+        <li class="list-inline-item"><a href="men.html">Mens</a></li>
+        <li class="list-inline-item"><a href="womens.html">Womens</a></li>
+        <li class="list-inline-item"><a href="sale.html">Sale</a></li>
+        <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <p class="copyright">Good Vintage © 2018</p>
+</footer>
+
 
 <!--footer-->
 
-<div class="footer">
-  <a class="nav2" id="home" href="home.html"> <img src="images/svgs/other_houses-24px.svg" id="a"></a>
-  <a class="nav2" id="account" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" id="b"></a>
-  <a class="nav2" id="wishlist" href="wishlist.html"><img src="images/svgs/favorite_border-24px.svg" id="c"></a>
-  <a class="nav2" id="contact" href="contact.html"> <img src="images/svgs/email-24px.svg" id="d"></a>
+<div class="fixednav">
+  <a class="nav2" id="home" href="home.html"> <img src="images/svgs/other_houses-24px.svg" alt="link to home page" id="a"></a>
+  <a class="nav2" id="account" href="Account.html"> <img src="images/svgs/person_outline-24px.svg" alt="link to account page" id="b"></a>
+  <a class="nav2" id="contact" href="contact.html"> <img src="images/svgs/email-24px.svg" alt="link to contact us page" id="d"></a>
 
 
 </div>
@@ -152,7 +185,7 @@ function myFunction() {
 }
 
 //countdown//
-var deadline = new Date("May 27, 2021 12:00:00").getTime();
+var deadline = new Date("June 27, 2021 12:00:00").getTime();
 
 var x = setInterval(function(){
 
