@@ -3,65 +3,44 @@
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Gruppo';font-size: 18px;
+    text-align: left;
+    padding-left: 5%;
+}
+
+h2{
+    font-family: 'Gruppo';font-size: 32px;
+}
+
+h3{
+    font-family: 'Gruppo';font-size: 6px;
+}
+
+h4{
+  font-family: 'Gruppo';font-size: 14px;
+}
+
+h5{
+  color: white;
+  margin-bottom: 0;
+}
+
+
+
+/*header*/
+
 header {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #EAEAEB;
     background-color: white;
     position: relative;
-    text-align: left;
-}
-
-.nav{
-  width: 150%;
-}
-
-#logo{
-  width: 100%;
-  text-align: left;
-  padding-left: 2%;
-}
-
-#logocom{
-position: absolute;
-left: 40%;
-top: 9%;;
-}
-
-
-#carticon{
-  max-width: 65%;
-  padding-right: 13%;
-}
-
-#basket{
-  width: 3.5em;
-  text-align: right;
-  position:absolute;
-  right: 0;
-  margin-right: 12%;
-  padding-top: 3%;
-}
-
-#contentstitle{
-  width: 100%;
-  position:inherit;
-  top: 0;
-}
-
-#contentstitle{
-  background-color: black;
-  padding-left: 2%;
-  height: 8%;
-}
-
-.closebutton{
-  max-width: 20%;
-  padding-left: 47%;
-  position: absolute;
-  top: 20px;
-  padding-top: 1%;
-
+    z-index: 11;
 }
 
 .sticky{
@@ -70,113 +49,39 @@ top: 9%;;
   width: 100%;
 }
 
-#menu a {
-  text-decoration: none;
-  font-family:sans-serif;
-  font-size: 12px;
-  text-align: left;
-  color: black;
-  padding: 20px;
-  border-bottom: 1px solid gray;
-  display: block;
-  background: white;
-}
-
-
-#accountbutton{
-  position: absolute;
-  bottom: 0;
-  border-top: 1px solid gray;
+ #logo{
   width: 100%;
-}
-
-
-h2{
-  font-family: sans-serif;
-  font-size: 22px;
-}
-
-h3{
-  font-family: sans-serif;
-  font-size: 48px;
-  color: white;
-  text-align: left;
-}
-
-.links{
   padding-left: 2%;
-  display: flex;
-
-
+  padding-top: 2%;
 }
 
-.homelink{
-  padding-right: 1%;
-  text-decoration: none;
+ #logocom{
+position: absolute;
+left: 40%;
+top: 9%;;
 }
 
-.menlink{
-  text-decoration: none;
-  color: gray;
+ #basket{
+  width: 3.5em;
+  text-align: right;
+  position:absolute;
+  right: 0;
+  margin-right: 12%;
+  padding-top: 3%;
 }
 
-
-img{
-width: 100%;
-
-}
-
-.content{
+#basket img{
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
 }
 
-
-.item1 {
-
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
-    max-width:45%;
-    margin: auto;
-    font-family: arial;
-    text-align: center;
-    width: 50%;
-    margin-top: 7%;
+ #carticon{
+  max-width: 65%;
+padding-right: 13%;
 }
 
-.price{
-  color: grey;
-  font-size: 22px;
-}
-
-.item1 button{
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-  height: 75px;
-}
-
-.card button:hover {
-  opacity: 0.7;
-}
-
-.menscontent {
-    margin-top:20px;
-    display: flex;
-}
-
-.saleanimation{
-  background-color: #99d2d4;
-}
-
-html{
-  font-family: "helvetica neue", sans-serif;
+#carticoncomputer{
+ max-width: 100%;
+padding-right: 13%;
 }
 
 .nav{
@@ -186,96 +91,90 @@ html{
   z-index: 100;
 }
 
-.menu{
-  margin: none;
-  z-index: 100;
-  background-color: #f1f1da;
-  position: absolute;
-  left: 0;
-  top: 63px;
+.snipcart-items-count{
+margin-top: 4%;
+font-family: sans-serif;
+position: absolute;
+right: 0;
+padding-right: 16.23%;
 }
 
-.menu a {
-  clear: right;
-  text-decoration: none;
-  color: gray;
-  margin: 0 10px;
-  line-height: 90px;
-  z-index: 100;
-  background-color: #f8f8ec;
+ .snipcart {
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #313332;
 }
 
-label{
-  width: 2.5em;
+header label{
+  width: 3em;
   float: right;
-  display: none;
-  padding-right: 4%;
-  padding-top: 5%;
+  position: absolute;
+  right: 0;
+  padding-top: 3.5%;
+}
+
+label img{
+  width: 60%;
 }
 
 #toggle{
   display: none;
 }
 
+/*nav*/
+ .menu{
+  margin: none;
+  z-index: 100;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+
+ .menu a {
+  clear: right;
+  text-decoration: none;
+  color: gray;
+  margin: 0 10px;
+  line-height: 7em;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+ #logocomputer{
+  position: absolute;
+left: 40%;
+top: 9%;;
+}
+
 .bar{
   float: right;
-  display: flex;
+  display: none;
 }
 
-.footer{
-  position: fixed;
-  left:0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  border-top: 1px solid #EAEAEB;
-  background-color: white;
-  z-index: 200;
-
-}
-
-
-#home{
-  width: 25%;
-  padding-top: 3%;
-  text-align: center;
-}
-
-#account{
+ #account2{
   width: 25%;
 text-align: center;
 padding-top: 3%;
 }
 
-
-#wishlist{
+ #bag2{
   width: 25%;
-
 text-align: center;
 padding-top: 3%;
+fill: white;
 }
 
-#contact{
+
+ #contact2{
   width: 25%;
   text-align: center;
   padding-top: 3%;
 }
 
-#a{
-  max-width: 35%;
-}
-
-#b{
-  max-width: 35%;
-}
-
-#c{
-  max-width: 35%;
-}
-
-#d{
-  max-width: 35%;
+ #logocomputer{
+  display: none;
 }
 
 
@@ -286,7 +185,7 @@ padding-top: 3%;
 }
 
 #bag2{
-  width: 25%;
+  width: 45%;
 text-align: center;
 padding-top: 3%;
 fill: white;
@@ -305,7 +204,759 @@ padding-top: 3%;
   padding-top: 3%;
 }
 
-img{
+/*countdown*/
+
+section .countdown{
+  display: block;
+  clear: both;
+  content: "";
+}
+
+section .saleanimation{
+  background-color:  #b30000;
+  height: 75px;
+  position: relative;;
+  z-index: 10;
+  text-align: center;
+padding-top: 1%;
+padding-bottom: 1%;
+margin-bottom: 2%;
+}
+
+section #clockdiv {
+    min-width: 70%;
+    font-family: 'Gruppo';
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 100%;
+    width: 70%;
+}
+
+a{
+  text-decoration: none;
+}
+
+section #clockdiv > div {
+    border-radius: 2px;
+    display: inline-block;
+}
+
+section #clockdiv div > span {
+    border-radius: 3px;
+    font-size: 130%;
+    opacity: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+section .box{
+  padding-left: 1%;
+  padding-right: 1%;
+  position: relative;
+}
+
+section .smalltext {
+    font-size: 10%;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/*homecontent*/
+
+.girls{
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: -50;
+  display: block;
+}
+
+.girls img{
 width: 100%;
+float: right;
+background-color: pink;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left:30%;
+  transform: translate(-30%, 50%);
+  z-index: 0;
+}
+
+.title2{
+  position: absolute;
+  top: 50%;
+  right:20%;
+  transform: translate(20%, 50%);
+  z-index: 0;
+}
+
+ .slide_in{
+  font-size: 400%;
+  font-family: 'trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation: slideMe .4s ease-in;
+}
+
+@keyframes slideMe{
+  0%{
+    transform: skewX(53deg) translateX(500px);
+  }
+  100%{
+    transform: skew(0deg);
+  }
+}
+
+
+ .slide_in2{
+  font-size: 400%;
+  font-family: 'trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation: slideMe2 .4s ease-in;
+}
+
+@keyframes slideMe2{
+  0%{
+    transform: skewX(53deg) translateX(-500px);
+  }
+  100%{
+    transform: skew(0deg);
+  }
+}
+
+.clearfix:after{
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/*gridlayouthomepage*/
+
+.main{
+  width: 100%;
+  float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-6liam {width: 100%;}
+.col-6laura {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row a{
+  width: 100%;;
+}
+
+#liamoutside img{
+  width: 100%;
+}
+
+
+#lauraoutside img{
+  width: 100%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+#video{
+  width: 100%;
+}
+.col-6 img{
+  width: 100%;
+}
+
+@keyframes blinking {
+  0% {
+    background-color: #ff3d50;
+    border: 5px solid #871924;
+  }
+
+  100% {
+    background-color: #222291;
+    border: 5px solid #6565f2;
+  }
+}
+
+#mensandwomens{
+  display: flex;
+}
+
+#flash {
+  width: 100%;
+  animation: blinking 1s infinite;
+  display: flex;
+}
+
+#flash img{
+  width: 50%;
+}
+
+#flash h2{
+  padding-left: 30%;
+  padding-top: 10%;
+}
+
+#flash:hover{
+  color: white;
+}
+
+#saleinfo{
+  float: left;
+  padding-left: 20%;
+}
+
+#saleinfo img{
+  width: 100%;
+}
+
+#modelswanted{
+  display: no-flex;
+}
+
+#modelswanted img{
+  width: 100%;
+}
+
+#modelswanted h2{
+  padding-left: 5%;
+}
+
+
+/*menscontent*/
+.links{
+  margin-top: 5%;
+  padding-left: 2.2%;
+  display: flex;
+}
+
+.homelink{
+  padding-right: 1%;
+  text-decoration: none;
+}
+
+.menlink{
+  text-decoration: none;
+  color: #b30000;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item1{
+
+  max-width:50%;
+  margin: auto;
+  font-family: arial;
+  text-align: center;
+  width: 42%;
+  margin-top: 7%;
+}
+
+.price{
+  color: grey;
+  font-size: 22px;
+  text-align: left;
+  padding-left: 5%;
+  display: flex;
+}
+
+.price button{
+  float: right;
+  background-color: white;
+  padding-bottom: 6%;
+}
+
+.item1 button{
+  border: 1px solid black;
+  outline: 0;
+  color: black;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  height: 40px;
+}
+
+.item1 img{
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.menscontent{
+  margin-top: 20px;
+  display: flex;
+}
+
+/*salepage*/
+.number{
+  display: flex;
+}
+
+.price1{
+  padding-top: 3.5%;
+  color: grey;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+
+.newprice{
+  float: left;
+  color: red;
+  font-size: 22px;
+  margin-left: 4%;
+  margin-right: 3%;
+}
+
+/*loadingpage*/
+.animation{
+  margin-top: 40%;
+  margin-bottom: none;
+}
+
+
+#title{
+  opacity: 0%;
+}
+
+/*contactpage*/
+.contactform{
+  padding-left: 5%;
+}
+
+.contactform h1{
+  padding-left: 0;
+}
+
+.dropbtn {
+    width: 100%;
+    color: grey;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.dropdown {
+  background-color: white;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+      border-bottom: solid 1px black;
+}
+
+#contactus{
+  background-color: #f2f2f2;
+  height: 650px;
+}
+
+#myDropdown{
+  background-color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100%;;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 30;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display:block;}
+
+#emailsend{
+  background-color: black;
+  color: white;
+  border: transparent;
+}
+
+input{
+  float: right;
+}
+
+#emailreset{
+  background-color: #b30000;
+  border: transparent;
+  color: white;
+}
+
+/*accountpage*/
+form {
+  border: 3px solid #f1f1f1;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+
+ #logbtn button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+#logbtn button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.loginform {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+#myDropdown h4{
+  font-size: 12px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+/*footer*/
+footer {
+  padding:40px 0;
+  margin-top: 50px;
+  background-color:#f2f2f2;
+  color:#4b4c4d;
+  border-top: 1px solid #EAEAEB;
+}
+
+footer ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+footer li {
+  padding:0 10px;
+}
+
+footer ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+footer ul a:hover {
+  opacity:1;
+}
+
+footer .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+footer .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+footer .social > a:hover {
+  opacity:0.9;
+}
+
+footer .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+.fixednav{
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  border-top: 1px solid #EAEAEB;
+  background-color: white;
+  z-index: 200;
+  padding-bottom: 3%;
+}
+
+.fixednav img{
+  width: 35%;
+  opacity: 50%;
+}
+
+
+#home{
+  width: 33%;
+  padding-top: 3%;
+  text-align: center;
+}
+
+#account{
+  width: 33%;
+text-align: center;
+padding-top: 3%;
+}
+
+
+#contact{
+  width: 33%;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#a, #b, #d{
+  width: 25%;
+}
+
+
+/*breakpoint1*/
+@media only screen and (min-width: 400px) and (max-width: 749px){
+  label{
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu{
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+
+.menu a{
+  display: block;
+  border-bottom: 1px solid #EAEAEB;
+  margin: 0;
+}
+
+  #toggle:checked + .menu{
+    display: block;
+  }
+
+ #logocom{
+  display: none;
+}
+
+footer{
+  margin-bottom: 7%;
+}
+
+}
+
+@media screen and (min-width: 500px){
+
+  .row a{
+    width: 50%;;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  #flash img{
+    width: 90%;
+  }
+
+  #flash h2{
+    padding-left: 3%;
+    padding-top: 3%;
+    font-size: 20px;
+    color: white;
+  }
+}
+
+/*breakpoint2*/
+
+@media only screen and (min-width: 750px){
+ #logo{
+      display: none;
+    }
+
+    #logocom{
+      position: absolute;
+      left: 40%;
+      top: 5%;
+    }
+
+    #myHeader{
+      display: none;
+    }
+
+ .bar{
+   opacity: 50%;
+   display: flex;
+ }
+
+ .menu{
+    display: contents;
+ }
+
+ .menu a{
+   background-color: white;
+ }
+
+ label{
+   display: none;
+ }
+
+
+
+ #basket{
+  display: none;
+}
+
+.fixednav{
+  display: none;
+}
+
+
+
+ .page{
+  display: flex;
+  padding: 1%;
+}
+
+section .girls{
+  width: 97%;
+}
+
+header{
+  border-bottom: none;
+}
+
+section .saleanimation{
+  width: 100%;
+}
+
+.item1{
+  width: 30%;
+}
+
+#modelswanted{
+  display: flex;
+}
+
+#modelswanted img{
+  width: 50%;
+}
+
+input{
+  text-align: center;
+}
+
+form{
+  width: 55%;
+  height: 500px;
+  text-align: center;
+  margin-left: 22%;
+}
+
+.loginform{
+  margin-bottom: 20%;
+}
+}
+
+@media only screen and (min-width: 960px){
+  h5{
+    font-size: 120%;
+  }
+
+.item1{
+  width: 21%;
+}
 
 }
